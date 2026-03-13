@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "title": "Making a Booking",
+    "title_zh": "订舱操作",
+    "scene": "A freight forwarder contacts a shipping line to book space.",
+    "scene_zh": "货运代理向船公司询价并订舱。",
+    "lines": [
+      { "role": "A", "label": "货代", "en": "Good morning. I'd like to make a booking for a 40HQ container.", "zh": "早上好，我想订一个40尺高柜。" },
+      { "role": "B", "label": "船公司", "en": "Good morning. What's the trade lane?", "zh": "早上好，请问走哪条航线？" },
+      { "role": "A", "label": "货代", "en": "From Shanghai to Rotterdam. ETD around the 15th of this month.", "zh": "上海到鹿特丹，预计本月15号左右开船。" },
+      { "role": "B", "label": "船公司", "en": "We have the Ever Glory departing Shanghai on the 16th, ETA Rotterdam in 28 days.", "zh": "我们有\"永荣\"轮16号从上海出发，预计28天后到达鹿特丹。" },
+      { "role": "A", "label": "货代", "en": "That works. What is the CY cut-off date?", "zh": "可以，集装箱堆场的截关日期是哪天？" },
+      { "role": "B", "label": "船公司", "en": "CY cut-off is the 13th at noon. Documentary cut-off is the 14th at 17:00.", "zh": "堆场截关是13号中午，截单是14号下午5点。" },
+      { "role": "A", "label": "货代", "en": "Perfect. What is the all-in freight rate to Rotterdam?", "zh": "好的，到鹿特丹的综合运费是多少？" },
+      { "role": "B", "label": "船公司", "en": "USD 2,200 per 40HQ, all-in including origin THC but excluding destination THC.", "zh": "每个40尺高柜2200美元，包含起运港码头费，不含目的港码头费。" },
+      { "role": "A", "label": "货代", "en": "Accepted. Please proceed with the booking and send me the booking confirmation.", "zh": "接受，请帮我确认订舱并发送订舱确认书。" },
+      { "role": "B", "label": "船公司", "en": "Booking confirmed. Your booking number is SHA-2024-08851. Please submit shipping instructions by the 14th.", "zh": "订舱已确认，订舱号是SHA-2024-08851，请在14号前提交装船指示。" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Freight Rate Inquiry",
+    "title_zh": "运费询价",
+    "scene": "A customer asks a freight forwarder for a shipping quotation.",
+    "scene_zh": "客户向货运代理询问运费报价。",
+    "lines": [
+      { "role": "A", "label": "客户", "en": "Hello, we need a quotation for shipping goods to New York.", "zh": "您好，我们需要一个发货到纽约的运费报价。" },
+      { "role": "B", "label": "货代", "en": "Sure. Could you tell me the cargo details? Weight, volume, and type of goods?", "zh": "没问题，能告诉我货物详情吗？重量、体积和货物种类？" },
+      { "role": "A", "label": "客户", "en": "It's electronics, about 500 cartons, 3,000 KGS and 15 CBM.", "zh": "是电子产品，大约500箱，3000公斤，15立方米。" },
+      { "role": "B", "label": "货代", "en": "Will that be FCL or LCL?", "zh": "请问走整柜还是拼箱？" },
+      { "role": "A", "label": "客户", "en": "LCL please. We don't have enough cargo for a full container.", "zh": "走拼箱，我们的货量不够装整柜。" },
+      { "role": "B", "label": "货代", "en": "Understood. The LCL rate from Shanghai to New York is USD 85 per CBM, including origin charges.", "zh": "明白了。上海到纽约的拼箱费率是每立方米85美元，包含起运港费用。" },
+      { "role": "A", "label": "客户", "en": "Does this include destination customs clearance?", "zh": "这包含目的港清关费用吗？" },
+      { "role": "B", "label": "货代", "en": "No, customs clearance at destination is separate, approximately USD 180.", "zh": "不包含，目的港清关费用另计，大约180美元。" },
+      { "role": "A", "label": "客户", "en": "What is the transit time?", "zh": "运输时间是多久？" },
+      { "role": "B", "label": "货代", "en": "Approximately 25-28 days from Shanghai to New York. Please note LCL adds 3-4 days for CFS handling.", "zh": "从上海到纽约大约25-28天。请注意拼箱在货运站的操作还需多3-4天。" },
+      { "role": "A", "label": "客户", "en": "Okay, please send me a formal written quotation.", "zh": "好的，请将正式报价以书面形式发给我。" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bill of Lading Amendment",
+    "title_zh": "修改提单",
+    "scene": "A shipper needs to amend details on the bill of lading after sailing.",
+    "scene_zh": "发货人需要在开船后修改提单上的信息。",
+    "lines": [
+      { "role": "A", "label": "发货人", "en": "Hello, I need to amend the consignee name on our bill of lading.", "zh": "您好，我需要修改我们提单上的收货人名称。" },
+      { "role": "B", "label": "货代", "en": "I see. Has the vessel already sailed?", "zh": "好的。请问船已经开了吗？" },
+      { "role": "A", "label": "发货人", "en": "Yes, it sailed two days ago from Shanghai.", "zh": "是的，两天前从上海开的。" },
+      { "role": "B", "label": "货代", "en": "In that case, we'll need to submit a B/L amendment request to the shipping line. There will be an amendment fee.", "zh": "那我们需要向船公司提交提单修改申请，会有修改费用。" },
+      { "role": "A", "label": "发货人", "en": "How much is the amendment fee?", "zh": "修改费用是多少？" },
+      { "role": "B", "label": "货代", "en": "Typically USD 50 to 100 per amendment. The shipping line will confirm the exact amount.", "zh": "通常每次修改50到100美元，具体金额由船公司确认。" },
+      { "role": "A", "label": "发货人", "en": "That's fine. Please go ahead. The correct consignee is XYZ Trading Ltd., based in Frankfurt.", "zh": "没问题，请继续处理。正确的收货人是XYZ贸易有限公司，位于法兰克福。" },
+      { "role": "B", "label": "货代", "en": "Got it. Could you also provide the correct address and contact details?", "zh": "好的，能提供正确的地址和联系方式吗？" },
+      { "role": "A", "label": "发货人", "en": "Sure. The address is 45 Hauptstrasse, 60311 Frankfurt. Contact: Mr. Müller, +49 69 12345678.", "zh": "当然。地址是法兰克福Hauptstrasse 45号，60311。联系人：Müller先生，+49 69 12345678。" },
+      { "role": "B", "label": "货代", "en": "Perfect. I'll submit the amendment request now and update you once the revised B/L is issued.", "zh": "好的，我现在就提交修改申请，修改后的提单签发后立即通知您。" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cargo Tracking",
+    "title_zh": "货物追踪",
+    "scene": "A customer follows up on the status of their shipment.",
+    "scene_zh": "客户跟进货物运输状态。",
+    "lines": [
+      { "role": "A", "label": "客户", "en": "Hi, can you give me an update on our shipment? The B/L number is MAEU-987654321.", "zh": "您好，能告诉我货物的最新状态吗？提单号是MAEU-987654321。" },
+      { "role": "B", "label": "货代", "en": "Let me check the system. One moment please.", "zh": "让我查一下系统，请稍等。" },
+      { "role": "B", "label": "货代", "en": "I've got the details. The vessel departed Shanghai on March 5th and is currently at sea.", "zh": "查到了，船于3月5日离开上海，目前在海上。" },
+      { "role": "A", "label": "客户", "en": "When is the ETA at Hamburg?", "zh": "预计什么时候到汉堡？" },
+      { "role": "B", "label": "货代", "en": "The ETA at Hamburg is March 30th. However, there may be a 1-2 day delay due to port congestion.", "zh": "预计3月30日到汉堡，但因港口拥堵可能延迟1-2天。" },
+      { "role": "A", "label": "客户", "en": "Does this ship call directly at Hamburg or is there a transshipment?", "zh": "这班船直接到汉堡还是需要中转？" },
+      { "role": "B", "label": "货代", "en": "There is a transshipment at Singapore. The feeder vessel to Hamburg departs Singapore on March 15th.", "zh": "需要在新加坡中转，转至汉堡的支线船于3月15日离开新加坡。" },
+      { "role": "A", "label": "客户", "en": "I see. Will we receive an arrival notice before the vessel arrives?", "zh": "明白了，船到之前我们会收到到港通知吗？" },
+      { "role": "B", "label": "货代", "en": "Yes, you'll receive an arrival notice about 5 days before arrival. We'll also email you the D/O information.", "zh": "会的，到港前约5天您会收到到港通知，我们也会将提货单信息发邮件给您。" },
+      { "role": "A", "label": "客户", "en": "Great. Please also send us the customs clearance documents checklist.", "zh": "很好，请也把清关所需文件清单发给我们。" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Handling Cargo Damage",
+    "title_zh": "货损处理",
+    "scene": "A consignee reports damaged cargo and asks for assistance.",
+    "scene_zh": "收货人报告货物损坏并寻求协助处理索赔。",
+    "lines": [
+      { "role": "A", "label": "收货人", "en": "We have a problem. Our shipment arrived with 30 damaged cartons.", "zh": "我们遇到问题了，这票货到港时有30箱破损。" },
+      { "role": "B", "label": "货代", "en": "I'm sorry to hear that. Was the damage noted on the delivery receipt?", "zh": "很遗憾听到这个消息，破损情况在提货单据上注明了吗？" },
+      { "role": "A", "label": "收货人", "en": "Yes, we noted it on the delivery receipt before signing.", "zh": "是的，我们在签字之前在提货单据上注明了破损情况。" },
+      { "role": "B", "label": "货代", "en": "Good. That's very important for your claim. You should also take detailed photos of the damage.", "zh": "很好，这对您的索赔非常重要。您还应该对损坏情况拍详细的照片。" },
+      { "role": "A", "label": "收货人", "en": "We have photos. What documents do we need for the insurance claim?", "zh": "我们已经拍了照片，保险索赔需要哪些单据？" },
+      { "role": "B", "label": "货代", "en": "You'll need the B/L, commercial invoice, packing list, insurance policy, damage photos, and a survey report.", "zh": "您需要提单、商业发票、装箱单、保险单、损坏照片和公估报告。" },
+      { "role": "A", "label": "收货人", "en": "How do we get a survey report?", "zh": "公估报告怎么取得？" },
+      { "role": "B", "label": "货代", "en": "You need to hire an independent cargo surveyor. We can recommend one in your area.", "zh": "您需要聘请独立货物公估人，我们可以为您推荐当地的公估公司。" },
+      { "role": "A", "label": "收货人", "en": "Yes, please. Also, is there a time limit for filing the claim?", "zh": "好的，请推荐。还有，索赔有时间限制吗？" },
+      { "role": "B", "label": "货代", "en": "For visible damage, you must notify the carrier within 3 days of delivery. Please act quickly.", "zh": "对于明显损坏，您必须在提货后3天内通知承运人，请尽快行动。" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Urgent Air Freight",
+    "title_zh": "紧急空运",
+    "scene": "A customer needs to ship cargo urgently and considers air freight.",
+    "scene_zh": "客户有急货需要出运，考虑空运方案。",
+    "lines": [
+      { "role": "A", "label": "客户", "en": "We have an urgent situation. Our cargo must reach Chicago by March 20th.", "zh": "我们有紧急情况，货物必须在3月20日前到达芝加哥。" },
+      { "role": "B", "label": "货代", "en": "Today is March 10th. Ocean freight would take about 30 days — that won't work.", "zh": "今天是3月10日，海运大约需要30天，来不及了。" },
+      { "role": "A", "label": "客户", "en": "What about air freight? How long would it take?", "zh": "空运呢？需要多长时间？" },
+      { "role": "B", "label": "货代", "en": "Air freight from Shanghai to Chicago takes 3 to 5 days. You'd arrive comfortably before the 20th.", "zh": "上海到芝加哥空运需要3到5天，完全赶得上20号。" },
+      { "role": "A", "label": "客户", "en": "What is the air freight rate?", "zh": "空运费率是多少？" },
+      { "role": "B", "label": "货代", "en": "The current rate is about USD 6.50 per KG. What is the weight and volume of your cargo?", "zh": "目前的费率大约是每公斤6.50美元，请问货物的重量和体积是多少？" },
+      { "role": "A", "label": "客户", "en": "300 KGS and 1.5 CBM.", "zh": "300公斤，1.5立方米。" },
+      { "role": "B", "label": "货代", "en": "The volumetric weight is 250 KGS, so the chargeable weight is 300 KGS. Total air freight would be USD 1,950.", "zh": "体积重量是250公斤，所以计费重量是300公斤，空运费合计1950美元。" },
+      { "role": "A", "label": "客户", "en": "That's expensive but we have no choice. Can the cargo fly out by March 12th?", "zh": "价格贵了些但我们别无选择，货物能在3月12日前飞出去吗？" },
+      { "role": "B", "label": "货代", "en": "Yes, if you deliver cargo to our warehouse by tomorrow noon, we can book it on a flight departing March 12th.", "zh": "可以，如果您明天中午前将货物送到我们的仓库，我们可以预订3月12日出发的航班。" },
+      { "role": "A", "label": "客户", "en": "Perfect. Please proceed with the booking and send us the Air Waybill details.", "zh": "好的，请确认订舱并将航空运单信息发给我们。" }
+    ]
+  }
+]

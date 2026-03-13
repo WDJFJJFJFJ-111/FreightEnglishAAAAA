@@ -1,0 +1,5002 @@
+[
+  {
+    "id": 1,
+    "word": "Bill of Lading",
+    "abbr": "B/L",
+    "phonetic": "bɪl əv ˈleɪdɪŋ",
+    "zh": "提单",
+    "example": "Please send us the original Bill of Lading once the vessel departs.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 2,
+    "word": "Commercial Invoice",
+    "abbr": "CI",
+    "phonetic": "kəˈmɜːʃəl ˈɪnvɔɪs",
+    "zh": "商业发票",
+    "example": "The Commercial Invoice must state the correct value of goods for customs purposes.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 3,
+    "word": "Packing List",
+    "abbr": "P/L",
+    "phonetic": "ˈpækɪŋ lɪst",
+    "zh": "装箱单",
+    "example": "The Packing List shows the quantity, weight, and dimensions of each carton.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 4,
+    "word": "Certificate of Origin",
+    "abbr": "CO",
+    "phonetic": "səˈtɪfɪkət əv ˈɒrɪdʒɪn",
+    "zh": "原产地证书",
+    "example": "A Certificate of Origin is required to qualify for preferential tariff rates.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 5,
+    "word": "Delivery Order",
+    "abbr": "D/O",
+    "phonetic": "dɪˈlɪvəri ˈɔːdə",
+    "zh": "提货单",
+    "example": "The consignee must present the Delivery Order to pick up cargo from the terminal.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 6,
+    "word": "Shipping Instruction",
+    "abbr": "SI",
+    "phonetic": "ˈʃɪpɪŋ ɪnˈstrʌkʃən",
+    "zh": "装运指示",
+    "example": "Please submit your Shipping Instruction before the documentation cut-off date.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 7,
+    "word": "Arrival Notice",
+    "abbr": "AN",
+    "phonetic": "əˈraɪvəl ˈnəʊtɪs",
+    "zh": "到货通知",
+    "example": "The carrier sends an Arrival Notice to the consignee when the vessel nears the port.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 8,
+    "word": "Air Waybill",
+    "abbr": "AWB",
+    "phonetic": "eə ˈweɪbɪl",
+    "zh": "空运提单",
+    "example": "The Air Waybill number is used to track the shipment throughout its air journey.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 9,
+    "word": "Seaway Bill",
+    "abbr": "SWB",
+    "phonetic": "ˈsiːweɪ bɪl",
+    "zh": "海运单",
+    "example": "A Seaway Bill is non-negotiable and the consignee does not need to present the original.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 10,
+    "word": "Letter of Credit",
+    "abbr": "L/C",
+    "phonetic": "ˈletər əv ˈkredɪt",
+    "zh": "信用证",
+    "example": "The buyer opened a Letter of Credit to guarantee payment upon shipment of goods.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 11,
+    "word": "Manifest",
+    "abbr": "",
+    "phonetic": "ˈmænɪfest",
+    "zh": "舱单",
+    "example": "The carrier must file the cargo manifest with customs before vessel arrival.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 12,
+    "word": "Customs Declaration",
+    "abbr": "CD",
+    "phonetic": "ˈkʌstəmz ˌdekləˈreɪʃən",
+    "zh": "报关单",
+    "example": "An accurate Customs Declaration is essential to avoid delays at the border.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 13,
+    "word": "Insurance Certificate",
+    "abbr": "",
+    "phonetic": "ɪnˈʃʊərəns səˈtɪfɪkət",
+    "zh": "保险证书",
+    "example": "The bank requires an Insurance Certificate as part of the L/C document set.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 14,
+    "word": "Inspection Certificate",
+    "abbr": "",
+    "phonetic": "ɪnˈspekʃən səˈtɪfɪkət",
+    "zh": "检验证书",
+    "example": "The buyer requested an Inspection Certificate to confirm the goods meet specifications.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 15,
+    "word": "Fumigation Certificate",
+    "abbr": "",
+    "phonetic": "ˌfjuːmɪˈɡeɪʃən səˈtɪfɪkət",
+    "zh": "熏蒸证书",
+    "example": "A Fumigation Certificate is required for wooden packaging entering certain countries.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 16,
+    "word": "Health Certificate",
+    "abbr": "",
+    "phonetic": "helθ səˈtɪfɪkət",
+    "zh": "卫生证书",
+    "example": "Food exports require a Health Certificate issued by the relevant authority.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 17,
+    "word": "Weight Certificate",
+    "abbr": "",
+    "phonetic": "weɪt səˈtɪfɪkət",
+    "zh": "重量证书",
+    "example": "The Weight Certificate confirmed the net and gross weights of the shipment.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 18,
+    "word": "Quality Certificate",
+    "abbr": "",
+    "phonetic": "ˈkwɒlɪti səˈtɪfɪkət",
+    "zh": "质量证书",
+    "example": "The Quality Certificate verified that the goods conform to the agreed standards.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 19,
+    "word": "Draft Bill of Lading",
+    "abbr": "Draft B/L",
+    "phonetic": "drɑːft bɪl əv ˈleɪdɪŋ",
+    "zh": "草签提单",
+    "example": "Please review the Draft Bill of Lading and confirm the details before we issue the original.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 20,
+    "word": "Telex Release",
+    "abbr": "T/R",
+    "phonetic": "ˈteleks rɪˈliːs",
+    "zh": "电放",
+    "example": "The shipper requested a Telex Release so the consignee could collect cargo without the original B/L.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 21,
+    "word": "Original Bill of Lading",
+    "abbr": "OBL",
+    "phonetic": "əˈrɪdʒɪnəl bɪl əv ˈleɪdɪŋ",
+    "zh": "正本提单",
+    "example": "Three originals of the Original Bill of Lading were issued as a full set.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 22,
+    "word": "House Bill of Lading",
+    "abbr": "HBL",
+    "phonetic": "haʊs bɪl əv ˈleɪdɪŋ",
+    "zh": "分提单",
+    "example": "The freight forwarder issued a House Bill of Lading for each individual shipper in the LCL consolidation.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 23,
+    "word": "Master Bill of Lading",
+    "abbr": "MBL",
+    "phonetic": "ˈmɑːstə bɪl əv ˈleɪdɪŋ",
+    "zh": "主提单",
+    "example": "The Master Bill of Lading is issued by the ocean carrier to the freight forwarder.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 24,
+    "word": "Through Bill of Lading",
+    "abbr": "",
+    "phonetic": "θruː bɪl əv ˈleɪdɪŋ",
+    "zh": "联运提单",
+    "example": "A Through Bill of Lading covers the entire journey including inland transportation.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 25,
+    "word": "Clean Bill of Lading",
+    "abbr": "",
+    "phonetic": "kliːn bɪl əv ˈleɪdɪŋ",
+    "zh": "清洁提单",
+    "example": "The bank insisted on a Clean Bill of Lading with no remarks about damaged cargo.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 26,
+    "word": "Shipping Order",
+    "abbr": "S/O",
+    "phonetic": "ˈʃɪpɪŋ ˈɔːdə",
+    "zh": "装货单",
+    "example": "The terminal requires a Shipping Order before loading cargo onto the vessel.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 27,
+    "word": "Booking Confirmation",
+    "abbr": "",
+    "phonetic": "ˈbʊkɪŋ ˌkɒnfəˈmeɪʃən",
+    "zh": "订舱确认书",
+    "example": "We received the Booking Confirmation from the carrier with the vessel and voyage details.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 28,
+    "word": "Freight Invoice",
+    "abbr": "",
+    "phonetic": "freɪt ˈɪnvɔɪs",
+    "zh": "运费发票",
+    "example": "Please settle the Freight Invoice within 30 days of the vessel departure.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 29,
+    "word": "Debit Note",
+    "abbr": "DN",
+    "phonetic": "ˈdebɪt nəʊt",
+    "zh": "借记单",
+    "example": "A Debit Note was issued for the additional storage charges incurred.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 30,
+    "word": "Credit Note",
+    "abbr": "CN",
+    "phonetic": "ˈkredɪt nəʊt",
+    "zh": "贷记单",
+    "example": "The carrier issued a Credit Note after the overcharged freight fee was confirmed.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 31,
+    "word": "Proforma Invoice",
+    "abbr": "PI",
+    "phonetic": "ˈprəʊfɔːmə ˈɪnvɔɪs",
+    "zh": "形式发票",
+    "example": "The buyer used the Proforma Invoice to apply for an import license before shipment.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 32,
+    "word": "Dangerous Goods Declaration",
+    "abbr": "DGD",
+    "phonetic": "ˈdeɪndʒərəs ɡʊdz ˌdekləˈreɪʃən",
+    "zh": "危险品申报单",
+    "example": "A Dangerous Goods Declaration must be submitted before shipping hazardous materials.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 33,
+    "word": "Safety Data Sheet",
+    "abbr": "SDS",
+    "phonetic": "ˈseɪfti ˈdeɪtə ʃiːt",
+    "zh": "安全数据表",
+    "example": "The Safety Data Sheet provides handling and emergency response information for chemicals.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 34,
+    "word": "Container Load Plan",
+    "abbr": "CLP",
+    "phonetic": "kənˈteɪnə ləʊd plæn",
+    "zh": "装柜计划",
+    "example": "The Container Load Plan details how each carton is arranged inside the container.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 35,
+    "word": "Damage Report",
+    "abbr": "DR",
+    "phonetic": "ˈdæmɪdʒ rɪˈpɔːt",
+    "zh": "损坏报告",
+    "example": "A Damage Report was filed immediately after the broken goods were discovered at the warehouse.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 36,
+    "word": "Survey Report",
+    "abbr": "",
+    "phonetic": "ˈsɜːveɪ rɪˈpɔːt",
+    "zh": "理货报告",
+    "example": "The insurer required a Survey Report from a certified surveyor to process the claim.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 37,
+    "word": "Letter of Indemnity",
+    "abbr": "LOI",
+    "phonetic": "ˈletər əv ɪnˈdemnɪti",
+    "zh": "保函",
+    "example": "The consignee signed a Letter of Indemnity to obtain cargo release without the original B/L.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 38,
+    "word": "Import License",
+    "abbr": "IL",
+    "phonetic": "ˈɪmpɔːt ˈlaɪsəns",
+    "zh": "进口许可证",
+    "example": "Certain controlled goods require a valid Import License before customs clearance.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 39,
+    "word": "Export License",
+    "abbr": "EL",
+    "phonetic": "ˈekspɔːt ˈlaɪsəns",
+    "zh": "出口许可证",
+    "example": "Dual-use items need an Export License approved by the relevant government authority.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 40,
+    "word": "Pre-shipment Inspection",
+    "abbr": "PSI",
+    "phonetic": "priːˈʃɪpmənt ɪnˈspekʃən",
+    "zh": "装运前检验",
+    "example": "The importer arranged a Pre-shipment Inspection to verify product quality at the factory.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 41,
+    "word": "Certificate of Analysis",
+    "abbr": "COA",
+    "phonetic": "səˈtɪfɪkət əv əˈnæləsɪs",
+    "zh": "分析证书",
+    "example": "The Certificate of Analysis confirmed the chemical composition meets regulatory requirements.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 42,
+    "word": "Phytosanitary Certificate",
+    "abbr": "PC",
+    "phonetic": "ˌfaɪtəʊˈsænɪtri səˈtɪfɪkət",
+    "zh": "植物检疫证书",
+    "example": "All wooden pallets and plant-based goods must be accompanied by a Phytosanitary Certificate.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 43,
+    "word": "Veterinary Certificate",
+    "abbr": "",
+    "phonetic": "ˈvetərɪnri səˈtɪfɪkət",
+    "zh": "兽医证书",
+    "example": "Live animals and animal products require a Veterinary Certificate from an accredited authority.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 44,
+    "word": "GSP Form A",
+    "abbr": "",
+    "phonetic": "dʒiː es piː fɔːm eɪ",
+    "zh": "普惠制原产地证",
+    "example": "GSP Form A allows developing countries to export goods at reduced tariff rates to qualifying markets.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 45,
+    "word": "Consular Invoice",
+    "abbr": "",
+    "phonetic": "ˈkɒnsjʊlə ˈɪnvɔɪs",
+    "zh": "领事发票",
+    "example": "Some countries require a Consular Invoice certified by their local consulate.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 46,
+    "word": "Bill of Exchange",
+    "abbr": "B/E",
+    "phonetic": "bɪl əv ɪksˈtʃeɪndʒ",
+    "zh": "汇票",
+    "example": "The exporter drew a Bill of Exchange on the buyer as part of the documentary collection.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 47,
+    "word": "Dock Receipt",
+    "abbr": "DR",
+    "phonetic": "dɒk rɪˈsiːt",
+    "zh": "码头收据",
+    "example": "The trucker obtained a Dock Receipt when delivering cargo to the container terminal.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 48,
+    "word": "Mate's Receipt",
+    "abbr": "MR",
+    "phonetic": "meɪts rɪˈsiːt",
+    "zh": "大副收据",
+    "example": "The Mate's Receipt is issued by the ship's officer acknowledging cargo received on board.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 49,
+    "word": "Warehouse Receipt",
+    "abbr": "WR",
+    "phonetic": "ˈweəhaʊs rɪˈsiːt",
+    "zh": "仓库收据",
+    "example": "The Warehouse Receipt serves as proof that goods are stored at the designated facility.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 50,
+    "word": "Proof of Delivery",
+    "abbr": "POD",
+    "phonetic": "pruːf əv dɪˈlɪvəri",
+    "zh": "交货证明",
+    "example": "The signed Proof of Delivery confirms the consignee received the shipment in good condition.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 51,
+    "word": "Electronic Bill of Lading",
+    "abbr": "eBL",
+    "phonetic": "ɪˌlekˈtrɒnɪk bɪl əv ˈleɪdɪŋ",
+    "zh": "电子提单",
+    "example": "The Electronic Bill of Lading reduces paper handling and speeds up the documentation process.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 52,
+    "word": "Cargo Receipt",
+    "abbr": "CR",
+    "phonetic": "ˈkɑːɡəʊ rɪˈsiːt",
+    "zh": "货物收据",
+    "example": "A Cargo Receipt was issued when the freight forwarder accepted the goods at the warehouse.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 53,
+    "word": "Delivery Receipt",
+    "abbr": "",
+    "phonetic": "dɪˈlɪvəri rɪˈsiːt",
+    "zh": "收货回执",
+    "example": "The driver obtained a Delivery Receipt with the consignee's signature upon final delivery.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 54,
+    "word": "Freight Release",
+    "abbr": "",
+    "phonetic": "freɪt rɪˈliːs",
+    "zh": "货物放行通知",
+    "example": "The carrier issued a Freight Release after all outstanding charges were settled.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 55,
+    "word": "Endorsement",
+    "abbr": "",
+    "phonetic": "ɪnˈdɔːsmənt",
+    "zh": "背书",
+    "example": "The shipper signed an endorsement on the back of the B/L to transfer title to the buyer.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 56,
+    "word": "Negotiable Document",
+    "abbr": "",
+    "phonetic": "nɪˈɡəʊʃɪəbəl ˈdɒkjʊmənt",
+    "zh": "可转让单据",
+    "example": "An original Bill of Lading is a Negotiable Document that can be transferred by endorsement.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 57,
+    "word": "Non-negotiable Copy",
+    "abbr": "",
+    "phonetic": "nɒn nɪˈɡəʊʃɪəbəl ˈkɒpi",
+    "zh": "非转让副本",
+    "example": "The Non-negotiable Copy is for reference only and cannot be used to claim cargo.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 58,
+    "word": "Stowage Plan",
+    "abbr": "",
+    "phonetic": "ˈstəʊɪdʒ plæn",
+    "zh": "积载图",
+    "example": "The Stowage Plan shows the position of each container on board the vessel.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 59,
+    "word": "Tally Sheet",
+    "abbr": "",
+    "phonetic": "ˈtæli ʃiːt",
+    "zh": "理货单",
+    "example": "The tally clerk recorded each piece of cargo on the Tally Sheet during loading.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 60,
+    "word": "Cargo Manifest",
+    "abbr": "",
+    "phonetic": "ˈkɑːɡəʊ ˈmænɪfest",
+    "zh": "货物清单",
+    "example": "The Cargo Manifest lists all shipments on board and is filed with customs upon arrival.",
+    "category": "documents",
+    "level": 1
+  },
+  {
+    "id": 61,
+    "word": "Amendment",
+    "abbr": "",
+    "phonetic": "əˈmendmənt",
+    "zh": "修改",
+    "example": "The shipper requested an Amendment to correct the consignee's address on the B/L.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 62,
+    "word": "Letter of Authorization",
+    "abbr": "LOA",
+    "phonetic": "ˈletər əv ˌɔːθəraɪˈzeɪʃən",
+    "zh": "授权书",
+    "example": "The importer issued a Letter of Authorization to the broker for customs clearance.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 63,
+    "word": "Power of Attorney",
+    "abbr": "POA",
+    "phonetic": "ˈpaʊər əv əˈtɜːni",
+    "zh": "授权委托书",
+    "example": "The company signed a Power of Attorney granting the freight forwarder legal authority to act on its behalf.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 64,
+    "word": "Bank Guarantee",
+    "abbr": "BG",
+    "phonetic": "bæŋk ˌɡærənˈtiː",
+    "zh": "银行保函",
+    "example": "A Bank Guarantee was required to secure the release of goods held by customs.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 65,
+    "word": "Performance Bond",
+    "abbr": "",
+    "phonetic": "pəˈfɔːməns bɒnd",
+    "zh": "履约保证金",
+    "example": "The supplier provided a Performance Bond to guarantee timely delivery of the contract goods.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 66,
+    "word": "RCEP Certificate",
+    "abbr": "",
+    "phonetic": "ɑː siː iː piː səˈtɪfɪkət",
+    "zh": "RCEP原产地证书",
+    "example": "Exporters can use the RCEP Certificate to enjoy reduced tariffs within RCEP member countries.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 67,
+    "word": "Quota Certificate",
+    "abbr": "",
+    "phonetic": "ˈkwəʊtə səˈtɪfɪkət",
+    "zh": "配额证书",
+    "example": "Textile exporters must submit a Quota Certificate to comply with import restrictions.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 68,
+    "word": "Temperature Record",
+    "abbr": "",
+    "phonetic": "ˈtemprɪtʃə ˈrekɔːd",
+    "zh": "温度记录",
+    "example": "The Temperature Record from the reefer container confirmed the cold chain was maintained.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 69,
+    "word": "Seal Certificate",
+    "abbr": "",
+    "phonetic": "siːl səˈtɪfɪkət",
+    "zh": "铅封证书",
+    "example": "The Seal Certificate records the seal number applied to the container after stuffing.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 70,
+    "word": "Non-wooden Packing Declaration",
+    "abbr": "NWPD",
+    "phonetic": "nɒn ˈwʊdən ˈpækɪŋ ˌdekləˈreɪʃən",
+    "zh": "非木质包装声明",
+    "example": "The exporter provided a Non-wooden Packing Declaration to certify no wooden materials were used.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 71,
+    "word": "Notarization",
+    "abbr": "",
+    "phonetic": "ˌnəʊtəraɪˈzeɪʃən",
+    "zh": "公证",
+    "example": "The contract required notarization by a certified notary public before it was legally valid.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 72,
+    "word": "Apostille",
+    "abbr": "",
+    "phonetic": "əˈpɒstɪl",
+    "zh": "海牙认证",
+    "example": "Documents destined for Hague Convention countries must carry an Apostille stamp.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 73,
+    "word": "Legalization",
+    "abbr": "",
+    "phonetic": "ˌliːɡələˈzeɪʃən",
+    "zh": "领事认证",
+    "example": "Legalization by the importing country's embassy is required for certain trade documents.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 74,
+    "word": "Combined Transport Document",
+    "abbr": "CTD",
+    "phonetic": "kəmˈbaɪnd ˈtrænspɔːt ˈdɒkjʊmənt",
+    "zh": "联合运输单据",
+    "example": "A Combined Transport Document covers cargo movements by more than one mode of transport.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 75,
+    "word": "Straight Bill of Lading",
+    "abbr": "",
+    "phonetic": "streɪt bɪl əv ˈleɪdɪŋ",
+    "zh": "记名提单",
+    "example": "A Straight Bill of Lading names a specific consignee and is non-negotiable.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 76,
+    "word": "Order Bill of Lading",
+    "abbr": "",
+    "phonetic": "ˈɔːdə bɪl əv ˈleɪdɪŋ",
+    "zh": "指示提单",
+    "example": "An Order Bill of Lading can be transferred to another party through endorsement.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 77,
+    "word": "Foul Bill of Lading",
+    "abbr": "",
+    "phonetic": "faʊl bɪl əv ˈleɪdɪŋ",
+    "zh": "不清洁提单",
+    "example": "A Foul Bill of Lading is issued when the carrier notes visible damage or shortage of cargo.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 78,
+    "word": "On Board Bill of Lading",
+    "abbr": "",
+    "phonetic": "ɒn bɔːd bɪl əv ˈleɪdɪŋ",
+    "zh": "已装船提单",
+    "example": "An On Board Bill of Lading confirms that cargo has been physically loaded onto the named vessel.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 79,
+    "word": "Express Release",
+    "abbr": "EXP",
+    "phonetic": "ɪkˈspres rɪˈliːs",
+    "zh": "快捷放货",
+    "example": "Express Release allows the consignee to pick up cargo without presenting original documents.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 80,
+    "word": "Surrender B/L",
+    "abbr": "",
+    "phonetic": "səˈrendə biː el",
+    "zh": "电放提单",
+    "example": "After surrendering the original B/L at origin, the cargo can be released at destination without it.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 81,
+    "word": "Blank Endorsement",
+    "abbr": "",
+    "phonetic": "blæŋk ɪnˈdɔːsmənt",
+    "zh": "空白背书",
+    "example": "A Blank Endorsement allows the bearer of the B/L to claim the cargo without further formalities.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 82,
+    "word": "Freight Prepaid Stamp",
+    "abbr": "",
+    "phonetic": "freɪt priːˈpeɪd stæmp",
+    "zh": "运费预付章",
+    "example": "The Freight Prepaid Stamp on the B/L confirms that ocean freight has been paid by the shipper.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 83,
+    "word": "Freight Collect Stamp",
+    "abbr": "",
+    "phonetic": "freɪt kəˈlekt stæmp",
+    "zh": "运费到付章",
+    "example": "The Freight Collect Stamp indicates the consignee is responsible for paying the freight charges.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 84,
+    "word": "Full Set",
+    "abbr": "",
+    "phonetic": "fʊl set",
+    "zh": "全套",
+    "example": "The L/C requires a full set of original Bills of Lading to be presented.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 85,
+    "word": "Copy Not Negotiable",
+    "abbr": "",
+    "phonetic": "ˈkɒpi nɒt nɪˈɡəʊʃɪəbəl",
+    "zh": "不可转让副本",
+    "example": "The Copy Not Negotiable is stamped on extra prints of the B/L issued for reference only.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 86,
+    "word": "Manufacturer's Affidavit",
+    "abbr": "",
+    "phonetic": "ˌmænjʊˈfæktʃərərz ˌæfɪˈdeɪvɪt",
+    "zh": "制造商声明书",
+    "example": "A Manufacturer's Affidavit is used to certify the country of origin when a formal certificate is unavailable.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 87,
+    "word": "Country of Origin Declaration",
+    "abbr": "",
+    "phonetic": "ˈkʌntri əv ˈɒrɪdʒɪn ˌdekləˈreɪʃən",
+    "zh": "原产地声明",
+    "example": "The exporter signed a Country of Origin Declaration stating that goods were made in China.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 88,
+    "word": "Multimodal Transport Document",
+    "abbr": "MTD",
+    "phonetic": "ˌmʌltɪˈməʊdəl ˈtrænspɔːt ˈdɒkjʊmənt",
+    "zh": "多式联运单据",
+    "example": "A Multimodal Transport Document is issued when cargo travels by sea, rail, and road under one contract.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 89,
+    "word": "Anti-dumping Certificate",
+    "abbr": "",
+    "phonetic": "ˈænti ˈdʌmpɪŋ səˈtɪfɪkət",
+    "zh": "反倾销证书",
+    "example": "The importer submitted an Anti-dumping Certificate to prove the goods were not sold below fair market value.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 90,
+    "word": "Radiation Certificate",
+    "abbr": "",
+    "phonetic": "ˌreɪdiˈeɪʃən səˈtɪfɪkət",
+    "zh": "辐射证书",
+    "example": "Some importing countries require a Radiation Certificate to confirm goods are free from contamination.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 91,
+    "word": "Free Sale Certificate",
+    "abbr": "FSC",
+    "phonetic": "friː seɪl səˈtɪfɪkət",
+    "zh": "自由销售证书",
+    "example": "A Free Sale Certificate confirms that the product is legally sold in the country of manufacture.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 92,
+    "word": "ISPM 15 Certificate",
+    "abbr": "",
+    "phonetic": "aɪ es piː em fɪfˈtiːn səˈtɪfɪkət",
+    "zh": "ISPM15木质包装证书",
+    "example": "The ISPM 15 Certificate proves that wooden pallets have been heat-treated or fumigated.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 93,
+    "word": "Invoice Declaration",
+    "abbr": "",
+    "phonetic": "ˈɪnvɔɪs ˌdekləˈreɪʃən",
+    "zh": "发票声明",
+    "example": "An Invoice Declaration is a statement of origin printed on the commercial invoice by an approved exporter.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 94,
+    "word": "Supplier Declaration",
+    "abbr": "",
+    "phonetic": "səˈplaɪə ˌdekləˈreɪʃən",
+    "zh": "供应商声明",
+    "example": "The Supplier Declaration confirms the origin of materials used in the manufactured goods.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 95,
+    "word": "Test Report",
+    "abbr": "",
+    "phonetic": "test rɪˈpɔːt",
+    "zh": "检测报告",
+    "example": "The Test Report from an accredited lab confirmed the product meets safety standards.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 96,
+    "word": "Cargo Insurance Certificate",
+    "abbr": "",
+    "phonetic": "ˈkɑːɡəʊ ɪnˈʃʊərəns səˈtɪfɪkət",
+    "zh": "货物保险证书",
+    "example": "The Cargo Insurance Certificate must cover at least 110% of the CIF value of the shipment.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 97,
+    "word": "Packing Declaration",
+    "abbr": "",
+    "phonetic": "ˈpækɪŋ ˌdekləˈreɪʃən",
+    "zh": "包装声明",
+    "example": "The Packing Declaration certifies that packaging materials comply with importing country regulations.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 98,
+    "word": "Single Window Declaration",
+    "abbr": "SWD",
+    "phonetic": "ˈsɪŋɡəl ˈwɪndəʊ ˌdekləˈreɪʃən",
+    "zh": "单一窗口申报",
+    "example": "The Single Window Declaration allows traders to submit all customs documents through one portal.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 99,
+    "word": "Release Order",
+    "abbr": "RO",
+    "phonetic": "rɪˈliːs ˈɔːdə",
+    "zh": "放货指令",
+    "example": "The carrier issued a Release Order authorizing the terminal to hand over the cargo.",
+    "category": "documents",
+    "level": 2
+  },
+  {
+    "id": 100,
+    "word": "Shipping Guarantee",
+    "abbr": "SG",
+    "phonetic": "ˈʃɪpɪŋ ˌɡærənˈtiː",
+    "zh": "提货担保",
+    "example": "The importer presented a Shipping Guarantee to obtain cargo before the original B/L arrived.",
+    "category": "documents",
+    "level": 3
+  },
+  {
+    "id": 101,
+    "word": "Container",
+    "abbr": "CTR",
+    "phonetic": "kənˈteɪnə",
+    "zh": "集装箱",
+    "example": "The factory stuffed 500 cartons into a single 40-foot Container.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 102,
+    "word": "Vessel",
+    "abbr": "",
+    "phonetic": "ˈvesəl",
+    "zh": "船舶",
+    "example": "The Vessel is scheduled to depart from Shanghai on March 15th.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 103,
+    "word": "Port of Loading",
+    "abbr": "POL",
+    "phonetic": "pɔːt əv ˈləʊdɪŋ",
+    "zh": "装货港",
+    "example": "The Port of Loading is Ningbo, and the cargo is expected to be shipped next week.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 104,
+    "word": "Port of Discharge",
+    "abbr": "POD",
+    "phonetic": "pɔːt əv dɪsˈtʃɑːdʒ",
+    "zh": "卸货港",
+    "example": "Los Angeles is the Port of Discharge for this transpacific shipment.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 105,
+    "word": "Cargo Tracking",
+    "abbr": "",
+    "phonetic": "ˈkɑːɡəʊ ˈtrækɪŋ",
+    "zh": "货物追踪",
+    "example": "Use our online Cargo Tracking system to check the real-time status of your shipment.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 106,
+    "word": "Customs Clearance",
+    "abbr": "CC",
+    "phonetic": "ˈkʌstəmz ˈklɪərəns",
+    "zh": "清关",
+    "example": "Customs Clearance at the destination port took three days due to document issues.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 107,
+    "word": "Freight Rate",
+    "abbr": "",
+    "phonetic": "freɪt reɪt",
+    "zh": "运费率",
+    "example": "The Freight Rate from Shenzhen to Hamburg has risen sharply this quarter.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 108,
+    "word": "Booking",
+    "abbr": "",
+    "phonetic": "ˈbʊkɪŋ",
+    "zh": "订舱",
+    "example": "Please make a Booking with the carrier at least one week before the cut-off date.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 109,
+    "word": "Transit Time",
+    "abbr": "T/T",
+    "phonetic": "ˈtrænzɪt taɪm",
+    "zh": "运输时间",
+    "example": "The Transit Time from Guangzhou to Rotterdam is approximately 28 days.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 110,
+    "word": "Full Container Load",
+    "abbr": "FCL",
+    "phonetic": "fʊl kənˈteɪnə ləʊd",
+    "zh": "整箱货",
+    "example": "The shipment qualified for FCL as it filled an entire 40-foot container.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 111,
+    "word": "Less than Container Load",
+    "abbr": "LCL",
+    "phonetic": "les ðæn kənˈteɪnə ləʊd",
+    "zh": "拼箱货",
+    "example": "Since the cargo volume is small, we recommend shipping it as LCL to save cost.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 112,
+    "word": "20-foot General Purpose Container",
+    "abbr": "20GP",
+    "phonetic": "ˈtwenti fʊt ˈdʒenərəl ˈpɜːpəs kənˈteɪnə",
+    "zh": "20尺标准箱",
+    "example": "We booked two 20GP containers for this shipment of machinery parts.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 113,
+    "word": "40-foot General Purpose Container",
+    "abbr": "40GP",
+    "phonetic": "ˈfɔːti fʊt ˈdʒenərəl ˈpɜːpəs kənˈteɪnə",
+    "zh": "40尺标准箱",
+    "example": "A 40GP container can hold approximately 26 tons of cargo.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 114,
+    "word": "40-foot High Cube Container",
+    "abbr": "40HQ",
+    "phonetic": "ˈfɔːti fʊt haɪ kjuːb kənˈteɪnə",
+    "zh": "40尺高柜",
+    "example": "We upgraded to a 40HQ for its extra cubic capacity to accommodate the bulky goods.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 115,
+    "word": "Reefer Container",
+    "abbr": "RF",
+    "phonetic": "ˈriːfə kənˈteɪnə",
+    "zh": "冷藏箱",
+    "example": "Fresh seafood must be shipped in a Reefer Container set to minus 18 degrees Celsius.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 116,
+    "word": "Open Top Container",
+    "abbr": "OT",
+    "phonetic": "ˈəʊpən tɒp kənˈteɪnə",
+    "zh": "开顶箱",
+    "example": "The marble slabs were loaded from the top using an Open Top Container.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 117,
+    "word": "Flat Rack Container",
+    "abbr": "FR",
+    "phonetic": "flæt ræk kənˈteɪnə",
+    "zh": "平板箱",
+    "example": "The industrial machinery was loaded on a Flat Rack Container due to its oversized dimensions.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 118,
+    "word": "Tank Container",
+    "abbr": "TK",
+    "phonetic": "tæŋk kənˈteɪnə",
+    "zh": "罐式箱",
+    "example": "Liquid chemicals are transported in a Tank Container to prevent leakage.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 119,
+    "word": "Transshipment",
+    "abbr": "T/S",
+    "phonetic": "trænsˈʃɪpmənt",
+    "zh": "中转",
+    "example": "The cargo will be routed via Transshipment at Singapore before arriving in Colombo.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 120,
+    "word": "Direct Sailing",
+    "abbr": "",
+    "phonetic": "daɪˈrekt ˈseɪlɪŋ",
+    "zh": "直航",
+    "example": "We prefer Direct Sailing to avoid the risk of delays at transshipment ports.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 121,
+    "word": "Feeder Vessel",
+    "abbr": "",
+    "phonetic": "ˈfiːdə ˈvesəl",
+    "zh": "支线船",
+    "example": "A Feeder Vessel collects cargo from smaller ports and transfers it to the hub port.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 122,
+    "word": "Mother Vessel",
+    "abbr": "",
+    "phonetic": "ˈmʌðə ˈvesəl",
+    "zh": "干线船",
+    "example": "The Mother Vessel operates the main ocean route between Asia and Europe.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 123,
+    "word": "Container Yard",
+    "abbr": "CY",
+    "phonetic": "kənˈteɪnə jɑːd",
+    "zh": "集装箱堆场",
+    "example": "The empty container must be returned to the Container Yard within the free time allowed.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 124,
+    "word": "Container Freight Station",
+    "abbr": "CFS",
+    "phonetic": "kənˈteɪnə freɪt ˈsteɪʃən",
+    "zh": "集装箱货运站",
+    "example": "LCL shipments are consolidated at the Container Freight Station before being stuffed into a container.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 125,
+    "word": "Bonded Warehouse",
+    "abbr": "BW",
+    "phonetic": "ˈbɒndɪd ˈweəhaʊs",
+    "zh": "保税仓库",
+    "example": "Goods stored in a Bonded Warehouse are not subject to import duties until they enter the market.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 126,
+    "word": "Stuffing",
+    "abbr": "",
+    "phonetic": "ˈstʌfɪŋ",
+    "zh": "装柜",
+    "example": "Stuffing of the container is scheduled for Monday morning at the factory.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 127,
+    "word": "Devanning",
+    "abbr": "",
+    "phonetic": "diːˈvænɪŋ",
+    "zh": "拆柜",
+    "example": "Devanning will be carried out at the destination warehouse once the container arrives.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 128,
+    "word": "Cut-off Date",
+    "abbr": "",
+    "phonetic": "kʌt ɒf deɪt",
+    "zh": "截关日期",
+    "example": "The cargo must arrive at the port before the Cut-off Date to catch the scheduled vessel.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 129,
+    "word": "Sailing Schedule",
+    "abbr": "",
+    "phonetic": "ˈseɪlɪŋ ˈʃedjuːl",
+    "zh": "船期表",
+    "example": "Please check the Sailing Schedule to find the next available departure from Tianjin.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 130,
+    "word": "Estimated Time of Departure",
+    "abbr": "ETD",
+    "phonetic": "ˈestɪmeɪtɪd taɪm əv dɪˈpɑːtʃə",
+    "zh": "预计开航时间",
+    "example": "The ETD from Qingdao is confirmed as March 20th pending weather conditions.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 131,
+    "word": "Estimated Time of Arrival",
+    "abbr": "ETA",
+    "phonetic": "ˈestɪmeɪtɪd taɪm əv əˈraɪvəl",
+    "zh": "预计到港时间",
+    "example": "The ETA at the Port of Long Beach is April 15th based on current vessel speed.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 132,
+    "word": "Port Congestion",
+    "abbr": "",
+    "phonetic": "pɔːt kənˈdʒestʃən",
+    "zh": "港口拥堵",
+    "example": "Port Congestion at the destination has delayed vessel arrival by five days.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 133,
+    "word": "Cargo Rollover",
+    "abbr": "",
+    "phonetic": "ˈkɑːɡəʊ ˈrəʊləʊvə",
+    "zh": "货物甩柜",
+    "example": "Due to vessel overbooking, our shipment suffered a Cargo Rollover to the following week.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 134,
+    "word": "Shipper",
+    "abbr": "",
+    "phonetic": "ˈʃɪpə",
+    "zh": "发货人",
+    "example": "The Shipper is responsible for preparing the cargo and providing accurate documentation.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 135,
+    "word": "Consignee",
+    "abbr": "",
+    "phonetic": "ˌkɒnsaɪˈniː",
+    "zh": "收货人",
+    "example": "The Consignee must present the original B/L to collect the cargo at the destination port.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 136,
+    "word": "Notify Party",
+    "abbr": "N/P",
+    "phonetic": "ˈnəʊtɪfaɪ ˈpɑːti",
+    "zh": "通知方",
+    "example": "The Notify Party will be contacted when the vessel arrives at the destination port.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 137,
+    "word": "Freight Forwarder",
+    "abbr": "FF",
+    "phonetic": "freɪt ˈfɔːwədə",
+    "zh": "货运代理",
+    "example": "The Freight Forwarder arranged the booking, documentation, and customs clearance for the shipment.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 138,
+    "word": "Customs Broker",
+    "abbr": "CB",
+    "phonetic": "ˈkʌstəmz ˈbrəʊkə",
+    "zh": "报关行",
+    "example": "We hired a licensed Customs Broker to handle the import declaration at the port of entry.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 139,
+    "word": "Non-Vessel Operating Common Carrier",
+    "abbr": "NVOCC",
+    "phonetic": "nɒn ˈvesəl ˈɒpəreɪtɪŋ ˈkɒmən ˈkæriə",
+    "zh": "无船承运人",
+    "example": "As an NVOCC, the freight forwarder issues its own house bills of lading to shippers.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 140,
+    "word": "Terminal Handling Charge",
+    "abbr": "THC",
+    "phonetic": "ˈtɜːmɪnəl ˈhændlɪŋ tʃɑːdʒ",
+    "zh": "码头操作费",
+    "example": "The THC covers the cost of moving containers within the port terminal.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 141,
+    "word": "Bunker Adjustment Factor",
+    "abbr": "BAF",
+    "phonetic": "ˈbʌŋkə əˈdʒʌstmənt ˈfæktə",
+    "zh": "燃油附加费",
+    "example": "Rising oil prices led to an increase in the BAF applied to all ocean freight rates.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 142,
+    "word": "Currency Adjustment Factor",
+    "abbr": "CAF",
+    "phonetic": "ˈkʌrənsi əˈdʒʌstmənt ˈfæktə",
+    "zh": "货币调整附加费",
+    "example": "The CAF is applied to compensate carriers for exchange rate fluctuations.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 143,
+    "word": "Peak Season Surcharge",
+    "abbr": "PSS",
+    "phonetic": "piːk ˈsiːzən ˈsɜːtʃɑːdʒ",
+    "zh": "旺季附加费",
+    "example": "Carriers impose a Peak Season Surcharge during the busy pre-Christmas shipping period.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 144,
+    "word": "General Rate Increase",
+    "abbr": "GRI",
+    "phonetic": "ˈdʒenərəl reɪt ˈɪŋkriːs",
+    "zh": "综合费率上涨",
+    "example": "The carrier announced a GRI of USD 500 per container effective from the first of next month.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 145,
+    "word": "Demurrage",
+    "abbr": "",
+    "phonetic": "dɪˈmʌrɪdʒ",
+    "zh": "滞期费",
+    "example": "The importer was charged Demurrage because the container was not picked up within the free time.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 146,
+    "word": "Detention",
+    "abbr": "",
+    "phonetic": "dɪˈtenʃən",
+    "zh": "箱使用费",
+    "example": "Detention charges apply when the container is held outside the terminal beyond the allowed period.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 147,
+    "word": "Free Time",
+    "abbr": "",
+    "phonetic": "friː taɪm",
+    "zh": "免费期",
+    "example": "The carrier allows seven days of Free Time before demurrage charges begin to accrue.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 148,
+    "word": "Prepaid Freight",
+    "abbr": "",
+    "phonetic": "priːˈpeɪd freɪt",
+    "zh": "预付运费",
+    "example": "Under CIF terms, the shipper arranges Prepaid Freight on behalf of the buyer.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 149,
+    "word": "Collect Freight",
+    "abbr": "",
+    "phonetic": "kəˈlekt freɪt",
+    "zh": "到付运费",
+    "example": "Under FOB terms, the consignee pays Collect Freight directly to the carrier.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 150,
+    "word": "All-in Rate",
+    "abbr": "",
+    "phonetic": "ɔːl ɪn reɪt",
+    "zh": "综合费率",
+    "example": "The All-in Rate quoted by the carrier includes ocean freight and all applicable surcharges.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 151,
+    "word": "Ocean Freight",
+    "abbr": "OF",
+    "phonetic": "ˈəʊʃən freɪt",
+    "zh": "海运费",
+    "example": "Ocean Freight from China to Europe has been volatile due to Red Sea disruptions.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 152,
+    "word": "Air Freight",
+    "abbr": "AF",
+    "phonetic": "eə freɪt",
+    "zh": "空运费",
+    "example": "Air Freight is significantly more expensive but offers much shorter transit times.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 153,
+    "word": "Door to Door",
+    "abbr": "D2D",
+    "phonetic": "dɔː tə dɔː",
+    "zh": "门到门",
+    "example": "The Door to Door service covers pickup from the supplier's factory to the buyer's warehouse.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 154,
+    "word": "Port to Port",
+    "abbr": "P2P",
+    "phonetic": "pɔːt tə pɔːt",
+    "zh": "港到港",
+    "example": "Port to Port service means the carrier is responsible only between the two named seaports.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 155,
+    "word": "Cargo Insurance",
+    "abbr": "",
+    "phonetic": "ˈkɑːɡəʊ ɪnˈʃʊərəns",
+    "zh": "货物保险",
+    "example": "We strongly recommend purchasing Cargo Insurance to cover potential transit risks.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 156,
+    "word": "Marine Insurance",
+    "abbr": "",
+    "phonetic": "məˈriːn ɪnˈʃʊərəns",
+    "zh": "海上保险",
+    "example": "Marine Insurance protects cargo against loss or damage during ocean transport.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 157,
+    "word": "General Average",
+    "abbr": "GA",
+    "phonetic": "ˈdʒenərəl ˈævərɪdʒ",
+    "zh": "共同海损",
+    "example": "When the vessel ran aground, all cargo owners shared the General Average losses proportionally.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 158,
+    "word": "Force Majeure",
+    "abbr": "",
+    "phonetic": "fɔːs mæˈʒɜː",
+    "zh": "不可抗力",
+    "example": "The carrier invoked Force Majeure after a typhoon disrupted the sailing schedule.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 159,
+    "word": "Out of Gauge",
+    "abbr": "OOG",
+    "phonetic": "aʊt əv ɡeɪdʒ",
+    "zh": "超规格货物",
+    "example": "The wind turbine blades are classified as Out of Gauge and require special flat rack containers.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 160,
+    "word": "Hazardous Cargo",
+    "abbr": "HAZ",
+    "phonetic": "ˈhæzədəs ˈkɑːɡəʊ",
+    "zh": "危险品货物",
+    "example": "Hazardous Cargo must be declared and shipped according to IMDG code regulations.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 161,
+    "word": "Overweight",
+    "abbr": "OW",
+    "phonetic": "ˌəʊvəˈweɪt",
+    "zh": "超重",
+    "example": "The container was flagged as Overweight at the gate and had to be re-stuffed.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 162,
+    "word": "Gross Weight",
+    "abbr": "GW",
+    "phonetic": "ɡrəʊs weɪt",
+    "zh": "毛重",
+    "example": "The Gross Weight of the shipment includes the weight of goods and all packaging materials.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 163,
+    "word": "Net Weight",
+    "abbr": "NW",
+    "phonetic": "net weɪt",
+    "zh": "净重",
+    "example": "The Net Weight refers to the weight of the goods only, excluding any packaging.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 164,
+    "word": "Tare Weight",
+    "abbr": "TW",
+    "phonetic": "teə weɪt",
+    "zh": "皮重",
+    "example": "The Tare Weight of the empty container is stamped on its door and must be accounted for.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 165,
+    "word": "Chargeable Weight",
+    "abbr": "CW",
+    "phonetic": "ˈtʃɑːdʒəbəl weɪt",
+    "zh": "计费重量",
+    "example": "For air freight, the Chargeable Weight is whichever is greater: actual or volumetric weight.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 166,
+    "word": "Volumetric Weight",
+    "abbr": "VW",
+    "phonetic": "ˌvɒljʊˈmetrɪk weɪt",
+    "zh": "体积重量",
+    "example": "The Volumetric Weight of the light but bulky package exceeded its actual weight.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 167,
+    "word": "Cubic Meter",
+    "abbr": "CBM",
+    "phonetic": "ˈkjuːbɪk ˈmiːtə",
+    "zh": "立方米",
+    "example": "The total volume of this LCL shipment is 8 Cubic Meters.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 168,
+    "word": "Measurement",
+    "abbr": "MEAS",
+    "phonetic": "ˈmeʒəmənt",
+    "zh": "尺寸量方",
+    "example": "Please provide the Measurement of each carton to calculate the total CBM.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 169,
+    "word": "Palletized",
+    "abbr": "",
+    "phonetic": "ˈpælɪtaɪzd",
+    "zh": "托盘装",
+    "example": "All cartons must be Palletized before delivery to the container freight station.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 170,
+    "word": "Breakbulk",
+    "abbr": "BB",
+    "phonetic": "ˈbreɪkbʌlk",
+    "zh": "散杂货",
+    "example": "Steel pipes and lumber are often shipped as Breakbulk cargo on conventional vessels.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 171,
+    "word": "Roll-on Roll-off",
+    "abbr": "RoRo",
+    "phonetic": "rəʊl ɒn rəʊl ɒf",
+    "zh": "滚装船运输",
+    "example": "New automobiles are typically transported by RoRo vessels and driven on and off the ship.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 172,
+    "word": "Multimodal",
+    "abbr": "",
+    "phonetic": "ˌmʌltɪˈməʊdəl",
+    "zh": "多式联运",
+    "example": "A Multimodal shipment from Chengdu to Germany uses rail across Central Asia then sea.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 173,
+    "word": "Cross-border",
+    "abbr": "",
+    "phonetic": "krɒs ˈbɔːdə",
+    "zh": "跨境",
+    "example": "Cross-border e-commerce has driven strong demand for parcel logistics services.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 174,
+    "word": "Inland Transportation",
+    "abbr": "",
+    "phonetic": "ˈɪnlənd ˌtrænspɔːˈteɪʃən",
+    "zh": "内陆运输",
+    "example": "Inland Transportation from the factory to the port is arranged by the shipper under FOB terms.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 175,
+    "word": "Last Mile",
+    "abbr": "",
+    "phonetic": "lɑːst maɪl",
+    "zh": "最后一公里",
+    "example": "Last Mile delivery is the most expensive part of the supply chain due to urban traffic.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 176,
+    "word": "Consolidation",
+    "abbr": "",
+    "phonetic": "kənˌsɒlɪˈdeɪʃən",
+    "zh": "拼箱整合",
+    "example": "The freight forwarder handles Consolidation of multiple small shipments into one container.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 177,
+    "word": "Deconsolidation",
+    "abbr": "",
+    "phonetic": "diːkənˌsɒlɪˈdeɪʃən",
+    "zh": "拆箱分货",
+    "example": "After arrival, Deconsolidation is performed at the CFS to separate individual LCL shipments.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 178,
+    "word": "AMS Filing",
+    "abbr": "AMS",
+    "phonetic": "eɪ em es ˈfaɪlɪŋ",
+    "zh": "美国舱单申报",
+    "example": "AMS Filing must be submitted to US Customs at least 24 hours before loading at origin.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 179,
+    "word": "ISF Filing",
+    "abbr": "ISF",
+    "phonetic": "aɪ es ef ˈfaɪlɪŋ",
+    "zh": "进口商安全申报",
+    "example": "ISF Filing is required by US Customs 24 hours prior to vessel departure for all imports.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 180,
+    "word": "Spot Rate",
+    "abbr": "",
+    "phonetic": "spɒt reɪt",
+    "zh": "即期运价",
+    "example": "The Spot Rate has increased significantly due to the current tight market capacity.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 181,
+    "word": "Contract Rate",
+    "abbr": "",
+    "phonetic": "ˈkɒntrækt reɪt",
+    "zh": "合约运价",
+    "example": "Our Contract Rate with the carrier is fixed for 12 months to ensure cost stability.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 182,
+    "word": "Carrier's Lien",
+    "abbr": "",
+    "phonetic": "ˈkæriərz liːn",
+    "zh": "承运人留置权",
+    "example": "The carrier exercised its Carrier's Lien and held the cargo until freight charges were paid.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 183,
+    "word": "Salvage",
+    "abbr": "",
+    "phonetic": "ˈsælvɪdʒ",
+    "zh": "救助",
+    "example": "The Salvage team recovered containers from the stranded vessel before it capsized.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 184,
+    "word": "Jettison",
+    "abbr": "",
+    "phonetic": "ˈdʒetɪsən",
+    "zh": "抛货",
+    "example": "The captain ordered Jettison of several containers to stabilize the vessel during the storm.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 185,
+    "word": "Particular Average",
+    "abbr": "PA",
+    "phonetic": "pəˈtɪkjʊlə ˈævərɪdʒ",
+    "zh": "单独海损",
+    "example": "The Particular Average claim was filed after a portion of the cargo was damaged by seawater.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 186,
+    "word": "War Risk",
+    "abbr": "WR",
+    "phonetic": "wɔː rɪsk",
+    "zh": "战争险",
+    "example": "An additional War Risk premium was added for vessels transiting through conflict zones.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 187,
+    "word": "Stowage",
+    "abbr": "",
+    "phonetic": "ˈstəʊɪdʒ",
+    "zh": "积载",
+    "example": "Proper Stowage of hazardous goods is critical to ensure vessel and crew safety.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 188,
+    "word": "Lashing",
+    "abbr": "",
+    "phonetic": "ˈlæʃɪŋ",
+    "zh": "绑扎固定",
+    "example": "Steel wires and chains were used for Lashing to secure the machinery on the flat rack.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 189,
+    "word": "Dunnage",
+    "abbr": "",
+    "phonetic": "ˈdʌnɪdʒ",
+    "zh": "垫舱物料",
+    "example": "Dunnage such as wooden planks and airbags was placed around the cargo to prevent shifting.",
+    "category": "shipping",
+    "level": 3
+  },
+  {
+    "id": 190,
+    "word": "Heavy Lift",
+    "abbr": "HL",
+    "phonetic": "ˈhevi lɪft",
+    "zh": "重型吊装",
+    "example": "A Heavy Lift crane was deployed to load the transformer onto the vessel.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 191,
+    "word": "Haulage",
+    "abbr": "",
+    "phonetic": "ˈhɔːlɪdʒ",
+    "zh": "陆路拖运",
+    "example": "Haulage from the inland depot to the port was arranged by the logistics company.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 192,
+    "word": "Drayage",
+    "abbr": "",
+    "phonetic": "ˈdreɪɪdʒ",
+    "zh": "短途拖运",
+    "example": "Drayage services move containers between the port terminal and the nearby distribution center.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 193,
+    "word": "Cartage",
+    "abbr": "",
+    "phonetic": "ˈkɑːtɪdʒ",
+    "zh": "短途运输费",
+    "example": "Cartage charges apply for transporting cargo within the local port area.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 194,
+    "word": "Surcharge",
+    "abbr": "SC",
+    "phonetic": "ˈsɜːtʃɑːdʒ",
+    "zh": "附加费",
+    "example": "Several surcharges including THC, BAF, and PSS were added to the base freight rate.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 195,
+    "word": "Base Rate",
+    "abbr": "BR",
+    "phonetic": "beɪs reɪt",
+    "zh": "基本运价",
+    "example": "The Base Rate is the fundamental ocean freight charge before any surcharges are applied.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 196,
+    "word": "All Risk Coverage",
+    "abbr": "AR",
+    "phonetic": "ɔːl rɪsk ˈkʌvərɪdʒ",
+    "zh": "一切险",
+    "example": "All Risk Coverage provides the broadest protection against physical loss or damage to cargo.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 197,
+    "word": "Priority Booking",
+    "abbr": "",
+    "phonetic": "praɪˈɒrɪti ˈbʊkɪŋ",
+    "zh": "优先订舱",
+    "example": "Priority Booking guarantees space on the next available vessel during peak seasons.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 198,
+    "word": "Vessel Delay",
+    "abbr": "VD",
+    "phonetic": "ˈvesəl dɪˈleɪ",
+    "zh": "船期延误",
+    "example": "A Vessel Delay of four days was caused by severe weather in the Pacific Ocean.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 199,
+    "word": "Intermodal",
+    "abbr": "",
+    "phonetic": "ˌɪntəˈməʊdəl",
+    "zh": "联合运输",
+    "example": "The Intermodal solution combines rail freight from Chicago to the West Coast seaport.",
+    "category": "shipping",
+    "level": 2
+  },
+  {
+    "id": 200,
+    "word": "Supply Chain",
+    "abbr": "SC",
+    "phonetic": "səˈplaɪ tʃeɪn",
+    "zh": "供应链",
+    "example": "Global disruptions have highlighted the need for resilient Supply Chain management.",
+    "category": "shipping",
+    "level": 1
+  },
+  {
+    "id": 201,
+    "word": "FOB",
+    "abbr": "FOB",
+    "phonetic": "ɛf oʊ biː",
+    "zh": "离岸价",
+    "example": "Our price is USD 50,000 FOB Shanghai, excluding freight and insurance.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 202,
+    "word": "CIF",
+    "abbr": "CIF",
+    "phonetic": "siː aɪ ɛf",
+    "zh": "到岸价",
+    "example": "The CIF price includes cost, insurance, and freight to the destination port.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 203,
+    "word": "EXW",
+    "abbr": "EXW",
+    "phonetic": "ɛks wɜːks",
+    "zh": "工厂交货",
+    "example": "Under EXW terms, the buyer is responsible for all transportation from our factory.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 204,
+    "word": "DDP",
+    "abbr": "DDP",
+    "phonetic": "diː diː piː",
+    "zh": "完税后交货",
+    "example": "We quote DDP Hamburg, meaning all duties and taxes are included in our price.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 205,
+    "word": "DAP",
+    "abbr": "DAP",
+    "phonetic": "diː eɪ piː",
+    "zh": "目的地交货",
+    "example": "The goods will be delivered DAP buyer's warehouse; import clearance is the buyer's responsibility.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 206,
+    "word": "FCA",
+    "abbr": "FCA",
+    "phonetic": "ɛf siː eɪ",
+    "zh": "货交承运人",
+    "example": "Under FCA terms, risk transfers to the buyer once we hand goods to the carrier.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 207,
+    "word": "CFR",
+    "abbr": "CFR",
+    "phonetic": "siː ɛf ɑːr",
+    "zh": "成本加运费",
+    "example": "Our CFR Rotterdam price is USD 12,000 per container, insurance excluded.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 208,
+    "word": "Incoterms",
+    "abbr": "",
+    "phonetic": "ɪŋkoʊtɜːrmz",
+    "zh": "国际贸易术语",
+    "example": "Please confirm which Incoterms apply to this shipment before we finalize the contract.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 209,
+    "word": "Tariff",
+    "abbr": "",
+    "phonetic": "tærɪf",
+    "zh": "关税税率",
+    "example": "The current tariff on imported steel is 25%, which significantly affects our costs.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 210,
+    "word": "Duty",
+    "abbr": "",
+    "phonetic": "djuːti",
+    "zh": "关税",
+    "example": "Import duty must be paid before customs will release the cargo.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 211,
+    "word": "CIP",
+    "abbr": "CIP",
+    "phonetic": "siː aɪ piː",
+    "zh": "运费及保险费付至",
+    "example": "Under CIP terms, the seller pays freight and insurance to the named destination.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 212,
+    "word": "CPT",
+    "abbr": "CPT",
+    "phonetic": "siː piː tiː",
+    "zh": "运费付至",
+    "example": "The CPT price covers transportation to the buyer's city, but not insurance.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 213,
+    "word": "DPU",
+    "abbr": "DPU",
+    "phonetic": "diː piː juː",
+    "zh": "卸货地交货",
+    "example": "DPU requires the seller to unload the goods at the named place of destination.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 214,
+    "word": "FAS",
+    "abbr": "FAS",
+    "phonetic": "ɛf eɪ ɛs",
+    "zh": "船边交货",
+    "example": "Under FAS terms, our obligation ends when goods are placed alongside the vessel.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 215,
+    "word": "Import Duty",
+    "abbr": "",
+    "phonetic": "ɪmpɔːrt djuːti",
+    "zh": "进口关税",
+    "example": "The import duty rate for this HS code is 8%, payable upon entry.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 216,
+    "word": "Export Duty",
+    "abbr": "",
+    "phonetic": "ɛkspɔːrt djuːti",
+    "zh": "出口关税",
+    "example": "China levies an export duty on certain raw materials to restrict outbound supply.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 217,
+    "word": "Anti-dumping Duty",
+    "abbr": "ADD",
+    "phonetic": "ænti dʌmpɪŋ djuːti",
+    "zh": "反倾销税",
+    "example": "The EU imposed a 48% anti-dumping duty on Chinese solar panel imports.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 218,
+    "word": "Countervailing Duty",
+    "abbr": "CVD",
+    "phonetic": "kaʊntərveɪlɪŋ djuːti",
+    "zh": "反补贴税",
+    "example": "Countervailing duties are applied to offset subsidies granted by foreign governments.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 219,
+    "word": "Safeguard Duty",
+    "abbr": "",
+    "phonetic": "seɪfɡɑːrd djuːti",
+    "zh": "保障税",
+    "example": "A safeguard duty was imposed temporarily to protect domestic producers from surging imports.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 220,
+    "word": "MFN Rate",
+    "abbr": "MFN",
+    "phonetic": "moʊst feɪvərd neɪʃən reɪt",
+    "zh": "最惠国税率",
+    "example": "The MFN rate for this product is 6.5%, applicable to all WTO member countries.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 221,
+    "word": "GSP",
+    "abbr": "GSP",
+    "phonetic": "dʒiː ɛs piː",
+    "zh": "普惠制",
+    "example": "Goods from least-developed countries may qualify for zero duty under GSP.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 222,
+    "word": "FTA",
+    "abbr": "FTA",
+    "phonetic": "ɛf tiː eɪ",
+    "zh": "自由贸易协定",
+    "example": "Under the FTA between the two countries, most goods are traded at zero tariff.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 223,
+    "word": "RCEP",
+    "abbr": "RCEP",
+    "phonetic": "ɑːr siː iː piː",
+    "zh": "区域全面经济伙伴关系协定",
+    "example": "RCEP has created one of the world's largest free trade areas in the Asia-Pacific region.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 224,
+    "word": "Preferential Tariff",
+    "abbr": "",
+    "phonetic": "prɪfɜːrɛnʃəl tærɪf",
+    "zh": "优惠关税",
+    "example": "With a valid certificate of origin, you can apply for the preferential tariff rate.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 225,
+    "word": "HS Code",
+    "abbr": "HS",
+    "phonetic": "eɪtʃ ɛs koʊd",
+    "zh": "商品编码",
+    "example": "Please confirm the HS code for this product so we can determine the applicable duty rate.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 226,
+    "word": "Customs Value",
+    "abbr": "",
+    "phonetic": "kʌstəmz væljuː",
+    "zh": "海关价格",
+    "example": "The customs value is generally based on the transaction value stated on the commercial invoice.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 227,
+    "word": "Transaction Value",
+    "abbr": "",
+    "phonetic": "trænzækʃən væljuː",
+    "zh": "成交价格",
+    "example": "The transaction value method is the primary method for customs valuation under WTO rules.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 228,
+    "word": "Declared Value",
+    "abbr": "",
+    "phonetic": "dɪklɛrd væljuː",
+    "zh": "申报价值",
+    "example": "The declared value on the invoice must match the actual transaction price.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 229,
+    "word": "VAT",
+    "abbr": "VAT",
+    "phonetic": "viː eɪ tiː",
+    "zh": "增值税",
+    "example": "Import VAT of 13% will be charged on the customs value plus import duty.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 230,
+    "word": "Excise Duty",
+    "abbr": "",
+    "phonetic": "ɛksaɪz djuːti",
+    "zh": "消费税",
+    "example": "Excise duty applies to specific goods such as tobacco, alcohol, and petroleum products.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 231,
+    "word": "Quota",
+    "abbr": "",
+    "phonetic": "kwoʊtə",
+    "zh": "配额",
+    "example": "The annual import quota for this product category has been fully utilized.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 232,
+    "word": "Trade Embargo",
+    "abbr": "",
+    "phonetic": "treɪd ɛmbɑːrɡoʊ",
+    "zh": "贸易禁运",
+    "example": "A trade embargo prevents any commercial transactions with the sanctioned country.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 233,
+    "word": "Sanctions",
+    "abbr": "",
+    "phonetic": "sæŋkʃənz",
+    "zh": "制裁",
+    "example": "We must screen all customers against the sanctions list before accepting any order.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 234,
+    "word": "Trade Balance",
+    "abbr": "",
+    "phonetic": "treɪd bæləns",
+    "zh": "贸易差额",
+    "example": "The trade balance between the two countries has been in surplus for five consecutive years.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 235,
+    "word": "Trade Surplus",
+    "abbr": "",
+    "phonetic": "treɪd sɜːrpləs",
+    "zh": "贸易顺差",
+    "example": "China's trade surplus with the US reached a record high last quarter.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 236,
+    "word": "Trade Deficit",
+    "abbr": "",
+    "phonetic": "treɪd dɛfɪsɪt",
+    "zh": "贸易逆差",
+    "example": "The country's trade deficit widened as import growth outpaced export growth.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 237,
+    "word": "Open Account",
+    "abbr": "O/A",
+    "phonetic": "oʊpən əkaʊnt",
+    "zh": "赊账",
+    "example": "We offer open account payment terms of net 60 days to trusted long-term customers.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 238,
+    "word": "Cash in Advance",
+    "abbr": "CIA",
+    "phonetic": "kæʃ ɪn ədvæns",
+    "zh": "预付现金",
+    "example": "For new customers, we require cash in advance before we begin production.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 239,
+    "word": "Documentary Collection",
+    "abbr": "D/C",
+    "phonetic": "dɒkjʊmɛntri kəlɛkʃən",
+    "zh": "跟单托收",
+    "example": "Documentary collection provides more security than open account but less than a letter of credit.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 240,
+    "word": "D/P",
+    "abbr": "D/P",
+    "phonetic": "diː piː",
+    "zh": "付款交单",
+    "example": "Under D/P terms, documents are released to the buyer only upon payment.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 241,
+    "word": "D/A",
+    "abbr": "D/A",
+    "phonetic": "diː eɪ",
+    "zh": "承兑交单",
+    "example": "D/A terms allow the buyer to receive documents upon accepting the draft for future payment.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 242,
+    "word": "T/T",
+    "abbr": "T/T",
+    "phonetic": "tiː tiː",
+    "zh": "电汇",
+    "example": "Please arrange T/T payment of USD 25,000 to our bank account within 5 working days.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 243,
+    "word": "Sight LC",
+    "abbr": "L/C",
+    "phonetic": "saɪt ɛl siː",
+    "zh": "即期信用证",
+    "example": "Payment is by sight LC, meaning funds are released as soon as documents are presented.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 244,
+    "word": "Usance LC",
+    "abbr": "L/C",
+    "phonetic": "juːzəns ɛl siː",
+    "zh": "远期信用证",
+    "example": "The buyer requested a 90-day usance LC to allow time to sell the goods before payment.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 245,
+    "word": "Standby LC",
+    "abbr": "SBLC",
+    "phonetic": "stænbaɪ ɛl siː",
+    "zh": "备用信用证",
+    "example": "The supplier requires a standby LC as security in case the buyer defaults on payment.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 246,
+    "word": "Purchase Order",
+    "abbr": "PO",
+    "phonetic": "pɜːrtʃəs ɔːrdər",
+    "zh": "采购订单",
+    "example": "Please proceed with production upon receipt of the signed purchase order.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 247,
+    "word": "Sales Contract",
+    "abbr": "",
+    "phonetic": "seɪlz kɒntrækt",
+    "zh": "销售合同",
+    "example": "Both parties must sign the sales contract before the order is confirmed.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 248,
+    "word": "Counter Offer",
+    "abbr": "",
+    "phonetic": "kaʊntər ɒfər",
+    "zh": "还盘",
+    "example": "We received their counter offer at USD 18 per unit, but our floor price is USD 20.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 249,
+    "word": "Acceptance",
+    "abbr": "",
+    "phonetic": "əksɛptəns",
+    "zh": "承兑/接受",
+    "example": "Upon acceptance of the draft, the buyer is obligated to pay at maturity.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 250,
+    "word": "Proforma Invoice",
+    "abbr": "PI",
+    "phonetic": "proʊfɔːrmə ɪnvɔɪs",
+    "zh": "形式发票",
+    "example": "Please find attached the proforma invoice for your review and approval.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 251,
+    "word": "Price List",
+    "abbr": "",
+    "phonetic": "praɪs lɪst",
+    "zh": "价格表",
+    "example": "Our latest price list is valid until the end of this quarter.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 252,
+    "word": "Quotation",
+    "abbr": "",
+    "phonetic": "kwoʊteɪʃən",
+    "zh": "报价",
+    "example": "Thank you for your inquiry; please find our competitive quotation attached.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 253,
+    "word": "Offer",
+    "abbr": "",
+    "phonetic": "ɒfər",
+    "zh": "报盘",
+    "example": "Our firm offer is valid for 7 days, subject to prior sale.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 254,
+    "word": "Arbitration",
+    "abbr": "",
+    "phonetic": "ɑːrbɪtreɪʃən",
+    "zh": "仲裁",
+    "example": "Any disputes shall be resolved by arbitration in Singapore under SIAC rules.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 255,
+    "word": "Dispute Resolution",
+    "abbr": "",
+    "phonetic": "dɪspjuːt rɛzəluːʃən",
+    "zh": "争议解决",
+    "example": "The contract includes a dispute resolution clause specifying mediation before litigation.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 256,
+    "word": "Liquidated Damages",
+    "abbr": "LD",
+    "phonetic": "lɪkwɪdeɪtɪd dæmɪdʒɪz",
+    "zh": "违约金",
+    "example": "Liquidated damages of 0.5% per day apply for late delivery under the contract.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 257,
+    "word": "Warranty",
+    "abbr": "",
+    "phonetic": "wɒrənti",
+    "zh": "质量保证",
+    "example": "All products come with a 12-month warranty against manufacturing defects.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 258,
+    "word": "Indemnity",
+    "abbr": "",
+    "phonetic": "ɪndɛmnɪti",
+    "zh": "赔偿",
+    "example": "The supplier shall provide indemnity against any claims arising from product defects.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 259,
+    "word": "Liability",
+    "abbr": "",
+    "phonetic": "laɪəbɪlɪti",
+    "zh": "责任/赔偿责任",
+    "example": "Our total liability under this contract shall not exceed the contract value.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 260,
+    "word": "Risk Transfer",
+    "abbr": "",
+    "phonetic": "rɪsk trænsfeɪr",
+    "zh": "风险转移",
+    "example": "Under FOB terms, risk transfer occurs when goods pass over the ship's rail.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 261,
+    "word": "Title",
+    "abbr": "",
+    "phonetic": "taɪtəl",
+    "zh": "所有权",
+    "example": "Title to the goods passes to the buyer only upon full payment of the invoice.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 262,
+    "word": "Consignment",
+    "abbr": "",
+    "phonetic": "kənsaɪnmənt",
+    "zh": "寄售",
+    "example": "We offer consignment arrangements where payment is made only after goods are sold.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 263,
+    "word": "Distribution Agreement",
+    "abbr": "",
+    "phonetic": "dɪstrɪbjuːʃən əɡriːmənt",
+    "zh": "分销协议",
+    "example": "Our distribution agreement grants exclusive rights to sell in the ASEAN region.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 264,
+    "word": "Exclusivity",
+    "abbr": "",
+    "phonetic": "ɪksklʊsɪvɪti",
+    "zh": "独家权",
+    "example": "We can offer exclusivity in your market if you commit to a minimum annual purchase volume.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 265,
+    "word": "Intellectual Property",
+    "abbr": "IP",
+    "phonetic": "ɪntɛlɛktʃuəl prɒpərti",
+    "zh": "知识产权",
+    "example": "All intellectual property rights in the product design remain with the seller.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 266,
+    "word": "Trademark",
+    "abbr": "TM",
+    "phonetic": "treɪdmɑːrk",
+    "zh": "商标",
+    "example": "The trademark is registered in over 50 countries to protect our brand globally.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 267,
+    "word": "Patent",
+    "abbr": "",
+    "phonetic": "peɪtənt",
+    "zh": "专利",
+    "example": "This technology is protected by a patent, so any unauthorized use would be infringement.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 268,
+    "word": "Copyright",
+    "abbr": "",
+    "phonetic": "kɒpiraɪt",
+    "zh": "版权",
+    "example": "All product manuals and artwork are protected by copyright and may not be reproduced.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 269,
+    "word": "Counterfeit",
+    "abbr": "",
+    "phonetic": "kaʊntərfɪt",
+    "zh": "假冒商品",
+    "example": "We seized a large shipment of counterfeit goods bearing our registered trademark.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 270,
+    "word": "Product Liability",
+    "abbr": "",
+    "phonetic": "prɒdəkt laɪəbɪlɪti",
+    "zh": "产品责任",
+    "example": "Manufacturers should carry product liability insurance to cover injury claims.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 271,
+    "word": "ISO Certification",
+    "abbr": "ISO",
+    "phonetic": "aɪ ɛs oʊ sɜːrtɪfɪkeɪʃən",
+    "zh": "ISO认证",
+    "example": "Our factory holds ISO 9001 certification, ensuring consistent quality management.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 272,
+    "word": "CE Marking",
+    "abbr": "CE",
+    "phonetic": "siː iː mɑːrkɪŋ",
+    "zh": "欧盟CE认证",
+    "example": "All electrical products exported to Europe must carry CE marking to enter the market.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 273,
+    "word": "FDA Approval",
+    "abbr": "FDA",
+    "phonetic": "ɛf diː eɪ əpruːvəl",
+    "zh": "FDA认证",
+    "example": "Our food packaging materials have received FDA approval for use in the US market.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 274,
+    "word": "Compliance",
+    "abbr": "",
+    "phonetic": "kəmplaɪəns",
+    "zh": "合规",
+    "example": "Compliance with local regulations is a prerequisite for market entry.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 275,
+    "word": "Regulatory Requirements",
+    "abbr": "",
+    "phonetic": "rɛɡjʊlətɔːri rɪkwaɪərments",
+    "zh": "监管要求",
+    "example": "Please confirm that the product meets all regulatory requirements in the destination country.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 276,
+    "word": "Commission",
+    "abbr": "",
+    "phonetic": "kəmɪʃən",
+    "zh": "佣金",
+    "example": "The agent receives a 3% commission on every successful sale.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 277,
+    "word": "Rebate",
+    "abbr": "",
+    "phonetic": "riːbeɪt",
+    "zh": "回扣/返利",
+    "example": "Customers who purchase over 500 units quarterly are eligible for a 2% rebate.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 278,
+    "word": "Discount",
+    "abbr": "",
+    "phonetic": "dɪskaʊnt",
+    "zh": "折扣",
+    "example": "We can offer a 5% discount for orders exceeding 1,000 units.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 279,
+    "word": "Markup",
+    "abbr": "",
+    "phonetic": "mɑːrkʌp",
+    "zh": "加价",
+    "example": "The distributor applies a 30% markup over our wholesale price.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 280,
+    "word": "Margin",
+    "abbr": "",
+    "phonetic": "mɑːrdʒɪn",
+    "zh": "利润率",
+    "example": "After all deductions, our net margin on this deal is only 8%.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 281,
+    "word": "Minimum Order Quantity",
+    "abbr": "MOQ",
+    "phonetic": "mɪnɪməm ɔːrdər kwɒntɪti",
+    "zh": "最小起订量",
+    "example": "Our MOQ for this product is 500 units per order.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 282,
+    "word": "Lead Time",
+    "abbr": "",
+    "phonetic": "liːd taɪm",
+    "zh": "交货期",
+    "example": "The current lead time for production is 4 weeks from receipt of your purchase order.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 283,
+    "word": "Payment Terms",
+    "abbr": "",
+    "phonetic": "peɪmənt tɜːrmz",
+    "zh": "付款条件",
+    "example": "Our standard payment terms are 30% deposit and 70% balance before shipment.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 284,
+    "word": "Delivery Terms",
+    "abbr": "",
+    "phonetic": "dɪlɪvəri tɜːrmz",
+    "zh": "交货条件",
+    "example": "The delivery terms and conditions are clearly stated in Article 5 of the contract.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 285,
+    "word": "Letter of Guarantee",
+    "abbr": "L/G",
+    "phonetic": "lɛtər ɒv ɡærəntiː",
+    "zh": "保函",
+    "example": "The buyer's bank issued a letter of guarantee to secure the seller's performance.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 286,
+    "word": "Deferred Payment",
+    "abbr": "",
+    "phonetic": "dɪfɜːrd peɪmənt",
+    "zh": "延期付款",
+    "example": "We can offer deferred payment of up to 90 days for established accounts.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 287,
+    "word": "Installment",
+    "abbr": "",
+    "phonetic": "ɪnstɔːlmənt",
+    "zh": "分期付款",
+    "example": "Payment will be made in three equal installments over six months.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 288,
+    "word": "Advance Payment",
+    "abbr": "",
+    "phonetic": "ədvæns peɪmənt",
+    "zh": "预付款",
+    "example": "An advance payment of 30% is required to confirm the order and start production.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 289,
+    "word": "Balance Payment",
+    "abbr": "",
+    "phonetic": "bæləns peɪmənt",
+    "zh": "尾款",
+    "example": "The balance payment of 70% is due upon presentation of the shipping documents.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 290,
+    "word": "Wire Transfer",
+    "abbr": "",
+    "phonetic": "waɪər trænsfeɪr",
+    "zh": "电汇转账",
+    "example": "Please arrange wire transfer to our USD account; details are provided on the invoice.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 291,
+    "word": "Exchange Rate",
+    "abbr": "FX",
+    "phonetic": "ɪkstʃeɪndʒ reɪt",
+    "zh": "汇率",
+    "example": "The contract is settled in USD to avoid exchange rate risk for both parties.",
+    "category": "trade",
+    "level": 1
+  },
+  {
+    "id": 292,
+    "word": "Currency Risk",
+    "abbr": "",
+    "phonetic": "kʌrənsi rɪsk",
+    "zh": "汇率风险",
+    "example": "We use forward contracts to hedge against currency risk on large export deals.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 293,
+    "word": "Price Clause",
+    "abbr": "",
+    "phonetic": "praɪs klɔːz",
+    "zh": "价格条款",
+    "example": "The price clause specifies that costs shall be adjusted quarterly based on raw material indices.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 294,
+    "word": "Most Favored Nation",
+    "abbr": "MFN",
+    "phonetic": "moʊst feɪvərd neɪʃən",
+    "zh": "最惠国待遇",
+    "example": "WTO members are obliged to grant most favored nation status to all other members.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 295,
+    "word": "Forward Contract",
+    "abbr": "",
+    "phonetic": "fɔːrwərd kɒntrækt",
+    "zh": "远期合约",
+    "example": "We entered a forward contract to lock in the USD/EUR exchange rate for six months.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 296,
+    "word": "Hedging",
+    "abbr": "",
+    "phonetic": "hɛdʒɪŋ",
+    "zh": "套期保值",
+    "example": "Hedging our currency exposure has reduced the volatility of our profit margins.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 297,
+    "word": "Penalty Clause",
+    "abbr": "",
+    "phonetic": "pɛnəlti klɔːz",
+    "zh": "违约罚款条款",
+    "example": "The penalty clause imposes a 1% fee per week for deliveries beyond the agreed schedule.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 298,
+    "word": "Agency Agreement",
+    "abbr": "",
+    "phonetic": "eɪdʒənsi əɡriːmənt",
+    "zh": "代理协议",
+    "example": "The agency agreement grants the partner the right to sign contracts on our behalf.",
+    "category": "trade",
+    "level": 2
+  },
+  {
+    "id": 299,
+    "word": "Force Majeure Clause",
+    "abbr": "",
+    "phonetic": "fɔːrs mæˈʒɜːr klɔːz",
+    "zh": "不可抗力条款",
+    "example": "The force majeure clause excuses both parties from obligations due to natural disasters.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 300,
+    "word": "Performance Guarantee",
+    "abbr": "PG",
+    "phonetic": "pərfɔːrməns ɡærəntiː",
+    "zh": "履约保证金",
+    "example": "The contractor provided a performance guarantee equal to 10% of the contract value.",
+    "category": "trade",
+    "level": 3
+  },
+  {
+    "id": 301,
+    "word": "Quotation",
+    "abbr": "",
+    "phonetic": "kwoʊteɪʃən",
+    "zh": "报价",
+    "example": "Could you please send us your quotation for this lane by end of day?",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 302,
+    "word": "Schedule",
+    "abbr": "",
+    "phonetic": "skɛdʒuːl",
+    "zh": "时间表/船期",
+    "example": "Please share the vessel schedule so we can plan the cargo readiness accordingly.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 303,
+    "word": "Shipment",
+    "abbr": "",
+    "phonetic": "ʃɪpmənt",
+    "zh": "货物/装运",
+    "example": "The shipment is ready at the factory and we need a container by next Monday.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 304,
+    "word": "Delay",
+    "abbr": "",
+    "phonetic": "dɪleɪ",
+    "zh": "延误",
+    "example": "There has been a delay at the port due to congestion; we expect clearance by Thursday.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 305,
+    "word": "Warehouse",
+    "abbr": "WH",
+    "phonetic": "wɛːrhaʊs",
+    "zh": "仓库",
+    "example": "The cargo is currently sitting in our warehouse pending customs clearance.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 306,
+    "word": "Delivery",
+    "abbr": "",
+    "phonetic": "dɪlɪvəri",
+    "zh": "交货/送达",
+    "example": "We aim to complete delivery to the consignee by this Friday.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 307,
+    "word": "Pickup",
+    "abbr": "",
+    "phonetic": "pɪkʌp",
+    "zh": "提货/取件",
+    "example": "Please arrange a pickup from the shipper's address on Tuesday morning.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 308,
+    "word": "Documentation",
+    "abbr": "",
+    "phonetic": "dɒkjʊmɛnteɪʃən",
+    "zh": "单据/文件",
+    "example": "All documentation must be submitted at least 24 hours before the vessel departure.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 309,
+    "word": "Follow up",
+    "abbr": "",
+    "phonetic": "fɒloʊ ʌp",
+    "zh": "跟进",
+    "example": "I will follow up with customs this afternoon and update you on the release status.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 310,
+    "word": "Update",
+    "abbr": "",
+    "phonetic": "ʌpdeɪt",
+    "zh": "更新/通知",
+    "example": "Could you please give me an update on the shipment ETA?",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 311,
+    "word": "Confirm",
+    "abbr": "",
+    "phonetic": "kənfɜːrm",
+    "zh": "确认",
+    "example": "Please confirm the booking details and send us the booking confirmation.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 312,
+    "word": "Arrange",
+    "abbr": "",
+    "phonetic": "əreɪndʒ",
+    "zh": "安排",
+    "example": "We will arrange the truck for door delivery once customs releases the cargo.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 313,
+    "word": "Coordinate",
+    "abbr": "",
+    "phonetic": "koʊɔːrdɪneɪt",
+    "zh": "协调",
+    "example": "Please coordinate with the warehouse team to ensure cargo is ready for stuffing.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 314,
+    "word": "Notify",
+    "abbr": "",
+    "phonetic": "noʊtɪfaɪ",
+    "zh": "通知",
+    "example": "Please notify the consignee immediately once the vessel has arrived at the port.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 315,
+    "word": "Advise",
+    "abbr": "",
+    "phonetic": "ədvaɪz",
+    "zh": "告知/建议",
+    "example": "Please advise if there are any restrictions on this product for the destination country.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 316,
+    "word": "Track",
+    "abbr": "",
+    "phonetic": "træk",
+    "zh": "追踪",
+    "example": "You can track your shipment using the tracking number provided in our email.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 317,
+    "word": "Monitor",
+    "abbr": "",
+    "phonetic": "mɒnɪtər",
+    "zh": "监控",
+    "example": "Our team will monitor the container status closely until it clears customs.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 318,
+    "word": "Expedite",
+    "abbr": "",
+    "phonetic": "ɛkspɪdaɪt",
+    "zh": "加急处理",
+    "example": "We need to expedite this shipment as the client has an urgent production deadline.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 319,
+    "word": "Prioritize",
+    "abbr": "",
+    "phonetic": "praɪɒrɪtaɪz",
+    "zh": "优先处理",
+    "example": "Please prioritize this booking as it is a key account shipment.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 320,
+    "word": "Amendment",
+    "abbr": "",
+    "phonetic": "əmɛndmənt",
+    "zh": "修改/变更",
+    "example": "We need to submit an amendment to the bill of lading to correct the consignee name.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 321,
+    "word": "Correction",
+    "abbr": "",
+    "phonetic": "kərɛkʃən",
+    "zh": "更正",
+    "example": "A correction to the invoice has been issued; please use the revised version.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 322,
+    "word": "Discrepancy",
+    "abbr": "",
+    "phonetic": "dɪskrɛpənsi",
+    "zh": "差异/不符",
+    "example": "There is a discrepancy between the packing list and the actual cargo weight.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 323,
+    "word": "Complaint",
+    "abbr": "",
+    "phonetic": "kəmpleɪnt",
+    "zh": "投诉",
+    "example": "We have received a complaint from the consignee about damaged cargo on arrival.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 324,
+    "word": "Claim",
+    "abbr": "",
+    "phonetic": "kleɪm",
+    "zh": "索赔",
+    "example": "Please provide supporting documents to process the cargo damage claim.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 325,
+    "word": "Compensation",
+    "abbr": "",
+    "phonetic": "kɒmpɛnseɪʃən",
+    "zh": "赔偿",
+    "example": "We will offer compensation for the delay once the liability is confirmed.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 326,
+    "word": "Dispute",
+    "abbr": "",
+    "phonetic": "dɪspjuːt",
+    "zh": "争议",
+    "example": "There is a dispute over the freight charges; can we arrange a call to resolve it?",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 327,
+    "word": "Resolution",
+    "abbr": "",
+    "phonetic": "rɛzəluːʃən",
+    "zh": "解决方案",
+    "example": "We are working on a resolution and will revert within 48 hours.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 328,
+    "word": "Urgent",
+    "abbr": "",
+    "phonetic": "ɜːrdʒənt",
+    "zh": "紧急",
+    "example": "This is an urgent request — we need the truck to pick up the cargo within 2 hours.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 329,
+    "word": "ASAP",
+    "abbr": "ASAP",
+    "phonetic": "eɪ ɛs eɪ piː",
+    "zh": "尽快",
+    "example": "Please confirm the booking ASAP so we can secure the container.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 330,
+    "word": "Rush",
+    "abbr": "",
+    "phonetic": "rʌʃ",
+    "zh": "加急",
+    "example": "This is a rush shipment that must arrive before the client's deadline next week.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 331,
+    "word": "Express",
+    "abbr": "",
+    "phonetic": "ɪksprɛs",
+    "zh": "快递/特急",
+    "example": "We'll send the samples by express courier to ensure they arrive by Friday.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 332,
+    "word": "Standard",
+    "abbr": "",
+    "phonetic": "stændərd",
+    "zh": "标准",
+    "example": "We offer both standard and express delivery options depending on urgency.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 333,
+    "word": "Premium",
+    "abbr": "",
+    "phonetic": "priːmiəm",
+    "zh": "优质/高级",
+    "example": "Our premium service guarantees door delivery within 3 business days globally.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 334,
+    "word": "Service Level",
+    "abbr": "",
+    "phonetic": "sɜːrvɪs lɛvəl",
+    "zh": "服务水平",
+    "example": "Our service level for express shipments is next-day delivery within the city.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 335,
+    "word": "KPI",
+    "abbr": "KPI",
+    "phonetic": "keɪ piː aɪ",
+    "zh": "关键绩效指标",
+    "example": "On-time delivery rate is one of our key KPIs tracked monthly.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 336,
+    "word": "SLA",
+    "abbr": "SLA",
+    "phonetic": "ɛs ɛl eɪ",
+    "zh": "服务等级协议",
+    "example": "Our SLA commits to a maximum transit time of 5 days for this lane.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 337,
+    "word": "Feedback",
+    "abbr": "",
+    "phonetic": "fiːdbæk",
+    "zh": "反馈",
+    "example": "We appreciate your feedback and will use it to improve our service quality.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 338,
+    "word": "Satisfaction",
+    "abbr": "",
+    "phonetic": "sætɪsfækʃən",
+    "zh": "满意度",
+    "example": "Customer satisfaction is our top priority in every shipment we handle.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 339,
+    "word": "Customer Service",
+    "abbr": "CS",
+    "phonetic": "kʌstəmər sɜːrvɪs",
+    "zh": "客户服务",
+    "example": "Please contact our customer service team for any inquiries about your shipment.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 340,
+    "word": "Account Manager",
+    "abbr": "AM",
+    "phonetic": "əkaʊnt mænɪdʒər",
+    "zh": "客户经理",
+    "example": "Your account manager will be in touch within 24 hours to discuss your requirements.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 341,
+    "word": "Inquiry",
+    "abbr": "",
+    "phonetic": "ɪŋkwaɪəri",
+    "zh": "询问/询价",
+    "example": "Thank you for your inquiry; we will respond with our best rates shortly.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 342,
+    "word": "Request",
+    "abbr": "",
+    "phonetic": "rɪkwɛst",
+    "zh": "请求/申请",
+    "example": "We have received your request for an additional container and are working on it.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 343,
+    "word": "Requirement",
+    "abbr": "",
+    "phonetic": "rɪkwaɪərmənt",
+    "zh": "要求",
+    "example": "Please list all special requirements for this shipment, including temperature control.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 344,
+    "word": "Specification",
+    "abbr": "Spec",
+    "phonetic": "spɛsɪfɪkeɪʃən",
+    "zh": "规格/说明",
+    "example": "The cargo specification confirms it is non-hazardous and can be loaded on any vessel.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 345,
+    "word": "Procedure",
+    "abbr": "",
+    "phonetic": "prəsiːdʒər",
+    "zh": "程序/流程",
+    "example": "Our standard procedure requires a signed booking form before we confirm the space.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 346,
+    "word": "Status",
+    "abbr": "",
+    "phonetic": "steɪtəs",
+    "zh": "状态/进展",
+    "example": "Could you share the current status of the customs clearance for our shipment?",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 347,
+    "word": "Report",
+    "abbr": "",
+    "phonetic": "rɪpɔːrt",
+    "zh": "报告",
+    "example": "We will send you a weekly shipment status report every Monday morning.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 348,
+    "word": "Summary",
+    "abbr": "",
+    "phonetic": "sʌməri",
+    "zh": "摘要/总结",
+    "example": "Please find attached a summary of all open shipments as of today.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 349,
+    "word": "Forecast",
+    "abbr": "",
+    "phonetic": "fɔːrkæst",
+    "zh": "预测/预报",
+    "example": "Could you share your shipment forecast for next quarter so we can reserve space?",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 350,
+    "word": "Capacity",
+    "abbr": "",
+    "phonetic": "kəpæsɪti",
+    "zh": "运力/容量",
+    "example": "Available capacity on this route is very tight; please book as early as possible.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 351,
+    "word": "Availability",
+    "abbr": "",
+    "phonetic": "əveɪləbɪlɪti",
+    "zh": "可用性/空舱",
+    "example": "Equipment availability is limited this week due to high port congestion.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 352,
+    "word": "Allocation",
+    "abbr": "",
+    "phonetic": "æləkeɪʃən",
+    "zh": "分配/配额",
+    "example": "Your monthly allocation is 20 TEUs, and you have used 15 so far this month.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 353,
+    "word": "Reference Number",
+    "abbr": "Ref No.",
+    "phonetic": "rɛfrəns nʌmbər",
+    "zh": "参考编号",
+    "example": "Please quote the reference number in all correspondence related to this shipment.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 354,
+    "word": "Tracking Number",
+    "abbr": "",
+    "phonetic": "trækɪŋ nʌmbər",
+    "zh": "跟踪号",
+    "example": "Here is your tracking number to monitor the parcel status online.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 355,
+    "word": "Container Number",
+    "abbr": "",
+    "phonetic": "kənteɪnər nʌmbər",
+    "zh": "箱号",
+    "example": "The container number is MSCU1234567; please verify it on the shipping line website.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 356,
+    "word": "Seal Number",
+    "abbr": "",
+    "phonetic": "siːl nʌmbər",
+    "zh": "铅封号",
+    "example": "The seal number on the container does not match what is stated on the bill of lading.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 357,
+    "word": "Vessel Name",
+    "abbr": "",
+    "phonetic": "vɛsəl neɪm",
+    "zh": "船名",
+    "example": "The vessel name is EVER GIVEN and it is expected to arrive next Tuesday.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 358,
+    "word": "Voyage Number",
+    "abbr": "Voy No.",
+    "phonetic": "vɔɪɪdʒ nʌmbər",
+    "zh": "航次号",
+    "example": "Please confirm the voyage number so we can issue the shipping instructions correctly.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 359,
+    "word": "Rate Confirmation",
+    "abbr": "",
+    "phonetic": "reɪt kɒnfɜːmeɪʃən",
+    "zh": "费率确认",
+    "example": "Please send the rate confirmation for this shipment before we proceed with booking.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 360,
+    "word": "Cargo Ready",
+    "abbr": "",
+    "phonetic": "kɑːrɡoʊ rɛdi",
+    "zh": "货物备妥",
+    "example": "Please advise when cargo ready so we can arrange the pre-carriage truck.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 361,
+    "word": "Stuffing Date",
+    "abbr": "",
+    "phonetic": "stʌfɪŋ deɪt",
+    "zh": "装柜日期",
+    "example": "The stuffing date is confirmed for March 15th at the factory in Shenzhen.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 362,
+    "word": "Departure Date",
+    "abbr": "ETD",
+    "phonetic": "dɪpɑːrtʃər deɪt",
+    "zh": "离港日期",
+    "example": "The departure date from Shanghai is March 18th, subject to vessel schedule.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 363,
+    "word": "Arrival Date",
+    "abbr": "ETA",
+    "phonetic": "əraɪvəl deɪt",
+    "zh": "到港日期",
+    "example": "The estimated arrival date at Los Angeles is April 2nd.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 364,
+    "word": "Clearance Date",
+    "abbr": "",
+    "phonetic": "klɪərəns deɪt",
+    "zh": "清关日期",
+    "example": "The clearance date is expected to be two working days after vessel arrival.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 365,
+    "word": "Delivery Date",
+    "abbr": "EDD",
+    "phonetic": "dɪlɪvəri deɪt",
+    "zh": "交货日期",
+    "example": "The confirmed delivery date to the consignee's warehouse is April 5th.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 366,
+    "word": "Pending",
+    "abbr": "",
+    "phonetic": "pɛndɪŋ",
+    "zh": "待处理/待定",
+    "example": "The shipment is pending customs inspection; we'll update you once it is released.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 367,
+    "word": "On Hold",
+    "abbr": "",
+    "phonetic": "ɒn hoʊld",
+    "zh": "暂停/搁置",
+    "example": "This container is on hold due to a documentation error that needs to be corrected.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 368,
+    "word": "Released",
+    "abbr": "",
+    "phonetic": "rɪliːst",
+    "zh": "已放行",
+    "example": "Great news — the container has been released by customs and is available for pickup.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 369,
+    "word": "Cleared",
+    "abbr": "",
+    "phonetic": "klɪərd",
+    "zh": "已清关",
+    "example": "The shipment has been cleared and will be dispatched to the consignee tomorrow.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 370,
+    "word": "Delivered",
+    "abbr": "",
+    "phonetic": "dɪlɪvərd",
+    "zh": "已送达",
+    "example": "We confirm the cargo was delivered to the consignee at 14:30 today.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 371,
+    "word": "In Transit",
+    "abbr": "",
+    "phonetic": "ɪn trænsɪt",
+    "zh": "在途中",
+    "example": "Your shipment is currently in transit and expected to arrive in Rotterdam on Friday.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 372,
+    "word": "Arrived",
+    "abbr": "",
+    "phonetic": "əraɪvd",
+    "zh": "已到达",
+    "example": "The vessel has arrived at the discharge port and is awaiting a berth.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 373,
+    "word": "Loaded",
+    "abbr": "",
+    "phonetic": "loʊdɪd",
+    "zh": "已装载",
+    "example": "The cargo has been loaded onto the vessel and the bill of lading will be issued shortly.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 374,
+    "word": "Departed",
+    "abbr": "",
+    "phonetic": "dɪpɑːrtɪd",
+    "zh": "已离港",
+    "example": "The vessel has departed from Ningbo and is now sailing toward Long Beach.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 375,
+    "word": "Estimated",
+    "abbr": "Est.",
+    "phonetic": "ɛstɪmeɪtɪd",
+    "zh": "预计",
+    "example": "The estimated time of arrival is 15:00 local time next Monday.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 376,
+    "word": "Actual",
+    "abbr": "Act.",
+    "phonetic": "æktʃuəl",
+    "zh": "实际",
+    "example": "The actual arrival was 2 days earlier than estimated due to favorable weather.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 377,
+    "word": "Confirmed",
+    "abbr": "",
+    "phonetic": "kənfɜːrmd",
+    "zh": "已确认",
+    "example": "The booking has been confirmed and the container number is now available.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 378,
+    "word": "Tentative",
+    "abbr": "",
+    "phonetic": "tɛntətɪv",
+    "zh": "暂定",
+    "example": "The departure date is tentative and subject to change based on the vessel schedule.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 379,
+    "word": "Revised",
+    "abbr": "",
+    "phonetic": "rɪvaɪzd",
+    "zh": "已修订",
+    "example": "Please find the revised invoice attached; the quantity has been corrected.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 380,
+    "word": "Draft",
+    "abbr": "",
+    "phonetic": "drɑːft",
+    "zh": "草稿/初稿",
+    "example": "Please review the draft bill of lading and confirm whether all details are correct.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 381,
+    "word": "Approved",
+    "abbr": "",
+    "phonetic": "əpruːvd",
+    "zh": "已批准",
+    "example": "The shipping instructions have been approved and we will proceed with issuance.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 382,
+    "word": "Rejected",
+    "abbr": "",
+    "phonetic": "rɪdʒɛktɪd",
+    "zh": "已拒绝",
+    "example": "The customs entry was rejected due to an incorrect HS code; please amend and resubmit.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 383,
+    "word": "Cancelled",
+    "abbr": "",
+    "phonetic": "kænsəld",
+    "zh": "已取消",
+    "example": "The booking has been cancelled at the shipper's request; no charges will apply.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 384,
+    "word": "Completed",
+    "abbr": "",
+    "phonetic": "kəmpliːtɪd",
+    "zh": "已完成",
+    "example": "The delivery has been completed and the POD has been uploaded to the system.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 385,
+    "word": "Processing",
+    "abbr": "",
+    "phonetic": "prɒsɛsɪŋ",
+    "zh": "处理中",
+    "example": "Your customs entry is currently processing and should be released by this afternoon.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 386,
+    "word": "Awaiting",
+    "abbr": "",
+    "phonetic": "əweɪtɪŋ",
+    "zh": "等待中",
+    "example": "We are awaiting the original documents from the shipper before we can release the cargo.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 387,
+    "word": "Forwarded",
+    "abbr": "",
+    "phonetic": "fɔːrwərdɪd",
+    "zh": "已转发/已转运",
+    "example": "The documents have been forwarded to your local agent for final delivery arrangement.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 388,
+    "word": "Received",
+    "abbr": "",
+    "phonetic": "rɪsiːvd",
+    "zh": "已收到",
+    "example": "We have received the payment and will proceed with the release of documents.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 389,
+    "word": "Quote",
+    "abbr": "",
+    "phonetic": "kwoʊt",
+    "zh": "报价",
+    "example": "Can you provide a quick quote for a 20-foot container from Guangzhou to Chicago?",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 390,
+    "word": "Deal",
+    "abbr": "",
+    "phonetic": "diːl",
+    "zh": "成交/协议",
+    "example": "We have a deal at USD 2,800 per TEU for 10 containers per month.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 391,
+    "word": "Invoice Number",
+    "abbr": "Inv No.",
+    "phonetic": "ɪnvɔɪs nʌmbər",
+    "zh": "发票号",
+    "example": "Please reference invoice number INV-2024-0389 in your payment instruction.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 392,
+    "word": "Purchase Order Number",
+    "abbr": "PO No.",
+    "phonetic": "pɜːrtʃəs ɔːrdər nʌmbər",
+    "zh": "订单号",
+    "example": "Please quote PO number PO-2024-001 on all shipping documents.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 393,
+    "word": "Outstanding",
+    "abbr": "",
+    "phonetic": "aʊtstændɪŋ",
+    "zh": "未结清的",
+    "example": "There are three outstanding invoices totaling USD 45,000 that are now overdue.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 394,
+    "word": "Overdue",
+    "abbr": "",
+    "phonetic": "oʊvərdjuː",
+    "zh": "逾期",
+    "example": "Your payment for invoice INV-001 is 30 days overdue; please arrange settlement.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 395,
+    "word": "Reminder",
+    "abbr": "",
+    "phonetic": "rɪmaɪndər",
+    "zh": "提醒",
+    "example": "This is a gentle reminder that the cut-off time for submission is 5 PM today.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 396,
+    "word": "Deadline",
+    "abbr": "",
+    "phonetic": "dɛdlaɪn",
+    "zh": "截止日期",
+    "example": "The deadline for submitting customs declarations is 12:00 noon on Friday.",
+    "category": "conversation",
+    "level": 1
+  },
+  {
+    "id": 397,
+    "word": "Bulk Booking",
+    "abbr": "",
+    "phonetic": "bʌlk bʊkɪŋ",
+    "zh": "批量订舱",
+    "example": "We'd like to make a bulk booking of 20 containers for the quarter to secure better rates.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 398,
+    "word": "Space Confirmation",
+    "abbr": "",
+    "phonetic": "speɪs kɒnfɜːmeɪʃən",
+    "zh": "舱位确认",
+    "example": "We have received the space confirmation from the shipping line for 5 TEUs next week.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 399,
+    "word": "Cut-off Time",
+    "abbr": "CUT",
+    "phonetic": "kʌt ɒf taɪm",
+    "zh": "截关时间",
+    "example": "The cut-off time for documentation submission is 48 hours before vessel departure.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 400,
+    "word": "Proof of Delivery",
+    "abbr": "POD",
+    "phonetic": "pruːf ɒv dɪlɪvəri",
+    "zh": "交货证明",
+    "example": "The consignee has signed the proof of delivery and scanned it back to us.",
+    "category": "conversation",
+    "level": 2
+  },
+  {
+    "id": 401,
+    "word": "Hotel",
+    "abbr": "",
+    "phonetic": "hoʊtɛl",
+    "zh": "酒店",
+    "example": "I have booked a hotel near the convention center for the trade show next week.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 402,
+    "word": "Airport",
+    "abbr": "",
+    "phonetic": "ɛərpɔːrt",
+    "zh": "机场",
+    "example": "Our driver will pick you up at the airport arrival hall at 10 AM.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 403,
+    "word": "Restaurant",
+    "abbr": "",
+    "phonetic": "rɛstərɒnt",
+    "zh": "餐厅",
+    "example": "I made a reservation at a local restaurant for our business dinner tonight.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 404,
+    "word": "Taxi",
+    "abbr": "",
+    "phonetic": "tæksi",
+    "zh": "出租车",
+    "example": "You can take a taxi from the airport to the hotel; it should cost about USD 30.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 405,
+    "word": "Menu",
+    "abbr": "",
+    "phonetic": "mɛnjuː",
+    "zh": "菜单",
+    "example": "The restaurant has an English menu, so ordering won't be a problem.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 406,
+    "word": "Reservation",
+    "abbr": "",
+    "phonetic": "rɛzərveɪʃən",
+    "zh": "预订",
+    "example": "I have a reservation for two at 7 PM under the name Smith.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 407,
+    "word": "Passport",
+    "abbr": "",
+    "phonetic": "pɑːspɔːrt",
+    "zh": "护照",
+    "example": "Please ensure your passport is valid for at least six months beyond your travel date.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 408,
+    "word": "Ticket",
+    "abbr": "",
+    "phonetic": "tɪkɪt",
+    "zh": "机票/票",
+    "example": "My return ticket is booked for the 20th; I fly back to London that evening.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 409,
+    "word": "Check in",
+    "abbr": "",
+    "phonetic": "tʃɛk ɪn",
+    "zh": "办理入住/值机",
+    "example": "You can check in online 24 hours before your flight to select your seat.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 410,
+    "word": "Check out",
+    "abbr": "",
+    "phonetic": "tʃɛk aʊt",
+    "zh": "退房/离开",
+    "example": "Hotel check-out time is 12 noon; please arrange a late check-out if needed.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 411,
+    "word": "Boarding Pass",
+    "abbr": "",
+    "phonetic": "bɔːrdɪŋ pæs",
+    "zh": "登机牌",
+    "example": "Please have your boarding pass and passport ready at the departure gate.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 412,
+    "word": "Immigration",
+    "abbr": "",
+    "phonetic": "ɪmɪɡreɪʃən",
+    "zh": "入境/移民局",
+    "example": "Please proceed to immigration upon landing and have your visa ready for inspection.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 413,
+    "word": "Customs",
+    "abbr": "",
+    "phonetic": "kʌstəmz",
+    "zh": "海关",
+    "example": "You must declare all goods valued over USD 800 when passing through customs.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 414,
+    "word": "Luggage",
+    "abbr": "",
+    "phonetic": "lʌɡɪdʒ",
+    "zh": "行李",
+    "example": "My luggage was delayed and did not arrive on the same flight as me.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 415,
+    "word": "Carry-on",
+    "abbr": "",
+    "phonetic": "kæri ɒn",
+    "zh": "随身行李",
+    "example": "The carry-on bag must fit in the overhead bin and weigh less than 7 kg.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 416,
+    "word": "Departure",
+    "abbr": "",
+    "phonetic": "dɪpɑːrtʃər",
+    "zh": "出发/离境",
+    "example": "The departure lounge for international flights is on the third floor.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 417,
+    "word": "Arrival",
+    "abbr": "",
+    "phonetic": "əraɪvəl",
+    "zh": "抵达/到达",
+    "example": "I will send you the arrival details once I land so you can arrange the pickup.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 418,
+    "word": "Terminal",
+    "abbr": "",
+    "phonetic": "tɜːrmɪnəl",
+    "zh": "航站楼",
+    "example": "My flight departs from Terminal 3; please note it is a different building.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 419,
+    "word": "Gate",
+    "abbr": "",
+    "phonetic": "ɡeɪt",
+    "zh": "登机口",
+    "example": "Boarding will commence at Gate B22 at 09:30; please proceed there in advance.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 420,
+    "word": "Lounge",
+    "abbr": "",
+    "phonetic": "laʊndʒ",
+    "zh": "候机室/贵宾室",
+    "example": "As a business class passenger, you have complimentary access to the lounge.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 421,
+    "word": "Business Class",
+    "abbr": "J",
+    "phonetic": "bɪznɪs klɑːs",
+    "zh": "商务舱",
+    "example": "The company policy allows business class for flights exceeding 8 hours.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 422,
+    "word": "Economy Class",
+    "abbr": "Y",
+    "phonetic": "ɪkɒnəmi klɑːs",
+    "zh": "经济舱",
+    "example": "I booked economy class to keep travel costs within the budget.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 423,
+    "word": "First Class",
+    "abbr": "F",
+    "phonetic": "fɜːrst klɑːs",
+    "zh": "头等舱",
+    "example": "First class passengers receive priority boarding and dedicated check-in counters.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 424,
+    "word": "Upgrade",
+    "abbr": "",
+    "phonetic": "ʌpɡreɪd",
+    "zh": "升舱/升级",
+    "example": "I was offered a complimentary upgrade to business class due to my frequent flyer status.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 425,
+    "word": "Cancellation",
+    "abbr": "",
+    "phonetic": "kænsəleɪʃən",
+    "zh": "取消",
+    "example": "Flight cancellation due to bad weather; the airline will rebook us on the next flight.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 426,
+    "word": "Refund",
+    "abbr": "",
+    "phonetic": "riːfʌnd",
+    "zh": "退款",
+    "example": "I requested a full refund after the conference was postponed due to the typhoon.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 427,
+    "word": "Rebooking",
+    "abbr": "",
+    "phonetic": "riːbʊkɪŋ",
+    "zh": "改签",
+    "example": "The airline offered free rebooking on the next available flight at no extra charge.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 428,
+    "word": "Visa",
+    "abbr": "",
+    "phonetic": "viːzə",
+    "zh": "签证",
+    "example": "I need to apply for a business visa before my trip to Germany next month.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 429,
+    "word": "Travel Insurance",
+    "abbr": "",
+    "phonetic": "trævəl ɪnʃʊərəns",
+    "zh": "旅行保险",
+    "example": "Always purchase travel insurance before an international business trip.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 430,
+    "word": "Itinerary",
+    "abbr": "",
+    "phonetic": "aɪtɪnərəri",
+    "zh": "行程单",
+    "example": "Please send me the confirmed itinerary so I can prepare the meeting agenda.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 431,
+    "word": "Currency Exchange",
+    "abbr": "FX",
+    "phonetic": "kʌrənsi ɪkstʃeɪndʒ",
+    "zh": "货币兑换",
+    "example": "The currency exchange rate at the airport is less favorable than at a local bank.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 432,
+    "word": "ATM",
+    "abbr": "ATM",
+    "phonetic": "eɪ tiː ɛm",
+    "zh": "自动取款机",
+    "example": "There is an ATM in the hotel lobby where you can withdraw local currency.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 433,
+    "word": "Credit Card",
+    "abbr": "",
+    "phonetic": "krɛdɪt kɑːrd",
+    "zh": "信用卡",
+    "example": "Most hotels and restaurants in the city accept major credit cards.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 434,
+    "word": "Cash",
+    "abbr": "",
+    "phonetic": "kæʃ",
+    "zh": "现金",
+    "example": "It's advisable to carry some cash for small expenses in places that don't accept cards.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 435,
+    "word": "Receipt",
+    "abbr": "",
+    "phonetic": "rɪsiːt",
+    "zh": "收据",
+    "example": "Please keep all receipts for meals and transportation to submit your expense report.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 436,
+    "word": "Tips",
+    "abbr": "",
+    "phonetic": "tɪps",
+    "zh": "小费",
+    "example": "It is customary to leave a 15-20% tip at restaurants in the United States.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 437,
+    "word": "Service Charge",
+    "abbr": "",
+    "phonetic": "sɜːrvɪs tʃɑːrdʒ",
+    "zh": "服务费",
+    "example": "The bill includes a 10% service charge, so additional tipping is optional.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 438,
+    "word": "Duty Free",
+    "abbr": "",
+    "phonetic": "djuːti friː",
+    "zh": "免税",
+    "example": "You can purchase duty free goods at the international departure terminal.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 439,
+    "word": "Souvenir",
+    "abbr": "",
+    "phonetic": "suːvənɪər",
+    "zh": "纪念品",
+    "example": "I picked up some local souvenirs at the airport to bring back for the team.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 440,
+    "word": "Transportation",
+    "abbr": "",
+    "phonetic": "trænspoːrteɪʃən",
+    "zh": "交通",
+    "example": "The conference organizer will arrange transportation between the hotel and venue.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 441,
+    "word": "Bus",
+    "abbr": "",
+    "phonetic": "bʌs",
+    "zh": "公共汽车",
+    "example": "The airport bus departs every 20 minutes and stops at the main train station.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 442,
+    "word": "Subway",
+    "abbr": "",
+    "phonetic": "sʌbweɪ",
+    "zh": "地铁",
+    "example": "Taking the subway is the fastest way to reach the trade center during rush hour.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 443,
+    "word": "Train",
+    "abbr": "",
+    "phonetic": "treɪn",
+    "zh": "火车",
+    "example": "The high-speed train from Shanghai to Beijing takes only four and a half hours.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 444,
+    "word": "Car Rental",
+    "abbr": "",
+    "phonetic": "kɑːr rɛntəl",
+    "zh": "租车",
+    "example": "I arranged a car rental for the factory visit since the location is outside the city.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 445,
+    "word": "Traffic",
+    "abbr": "",
+    "phonetic": "træfɪk",
+    "zh": "交通/路况",
+    "example": "Allow extra time because traffic is typically very heavy near the port during peak hours.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 446,
+    "word": "Parking",
+    "abbr": "",
+    "phonetic": "pɑːrkɪŋ",
+    "zh": "停车",
+    "example": "The hotel offers complimentary parking for guests in the underground garage.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 447,
+    "word": "Navigation",
+    "abbr": "",
+    "phonetic": "næviɡeɪʃən",
+    "zh": "导航",
+    "example": "Use the navigation app to find the fastest route to the factory in the industrial zone.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 448,
+    "word": "Accommodation",
+    "abbr": "",
+    "phonetic": "əkɒmədeɪʃən",
+    "zh": "住宿",
+    "example": "The company will cover accommodation for the duration of your business trip.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 449,
+    "word": "Room Service",
+    "abbr": "",
+    "phonetic": "ruːm sɜːrvɪs",
+    "zh": "客房服务",
+    "example": "The meeting ran late, so I ordered room service for dinner instead of going out.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 450,
+    "word": "Wi-Fi",
+    "abbr": "Wi-Fi",
+    "phonetic": "waɪ faɪ",
+    "zh": "无线网络",
+    "example": "The hotel provides complimentary Wi-Fi in all rooms and conference facilities.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 451,
+    "word": "Concierge",
+    "abbr": "",
+    "phonetic": "kɒnsɪeɪrʒ",
+    "zh": "礼宾/前台服务",
+    "example": "Ask the concierge to recommend a good local restaurant for our team dinner.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 452,
+    "word": "Buffet",
+    "abbr": "",
+    "phonetic": "bʊfeɪ",
+    "zh": "自助餐",
+    "example": "The hotel breakfast buffet features both Western and local dishes.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 453,
+    "word": "Set Meal",
+    "abbr": "",
+    "phonetic": "sɛt miːl",
+    "zh": "套餐",
+    "example": "The business lunch set meal includes a main course, dessert, and a drink.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 454,
+    "word": "Vegetarian",
+    "abbr": "",
+    "phonetic": "vɛdʒɪtɛəriən",
+    "zh": "素食的",
+    "example": "Two of our guests are vegetarian; please ensure the menu caters for them.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 455,
+    "word": "Allergy",
+    "abbr": "",
+    "phonetic": "ælərdʒi",
+    "zh": "过敏",
+    "example": "Please inform the restaurant in advance of any food allergies among our guests.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 456,
+    "word": "Recommendation",
+    "abbr": "",
+    "phonetic": "rɛkəmɛndeɪʃən",
+    "zh": "推荐",
+    "example": "Do you have a recommendation for a good seafood restaurant near the port?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 457,
+    "word": "Specialty",
+    "abbr": "",
+    "phonetic": "spɛʃəlti",
+    "zh": "特色菜/特产",
+    "example": "The chef's specialty is a local crab dish that pairs well with white wine.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 458,
+    "word": "Dessert",
+    "abbr": "",
+    "phonetic": "dɪzɜːrt",
+    "zh": "甜点",
+    "example": "Would you care for a dessert? The tiramisu here is highly recommended.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 459,
+    "word": "Appetizer",
+    "abbr": "",
+    "phonetic": "æpɪtaɪzər",
+    "zh": "开胃菜",
+    "example": "We started with a selection of appetizers while waiting for the main course.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 460,
+    "word": "Main Course",
+    "abbr": "",
+    "phonetic": "meɪn kɔːrs",
+    "zh": "主菜",
+    "example": "For the main course, I would recommend the grilled salmon with seasonal vegetables.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 461,
+    "word": "Beverage",
+    "abbr": "",
+    "phonetic": "bɛvərɪdʒ",
+    "zh": "饮料",
+    "example": "What beverage would you like — still water, juice, or something warm?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 462,
+    "word": "Bill",
+    "abbr": "",
+    "phonetic": "bɪl",
+    "zh": "账单",
+    "example": "Could we please have the bill? I'll put it on the company expense card.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 463,
+    "word": "Split the Bill",
+    "abbr": "",
+    "phonetic": "splɪt ðə bɪl",
+    "zh": "各付各的",
+    "example": "Shall we split the bill or would you prefer one person to pay this time?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 464,
+    "word": "Business Card",
+    "abbr": "",
+    "phonetic": "bɪznɪs kɑːrd",
+    "zh": "名片",
+    "example": "It's polite to present your business card with both hands when meeting in Asia.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 465,
+    "word": "Networking",
+    "abbr": "",
+    "phonetic": "nɛtwɜːrkɪŋ",
+    "zh": "人脉/交流活动",
+    "example": "The cocktail reception after the conference is a great networking opportunity.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 466,
+    "word": "Trade Show",
+    "abbr": "",
+    "phonetic": "treɪd ʃoʊ",
+    "zh": "贸易展",
+    "example": "We will exhibit at the Canton Fair, which is the largest trade show in China.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 467,
+    "word": "Exhibition",
+    "abbr": "",
+    "phonetic": "ɛksɪbɪʃən",
+    "zh": "展览会",
+    "example": "Our new product line will be showcased at the international logistics exhibition.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 468,
+    "word": "Conference",
+    "abbr": "",
+    "phonetic": "kɒnfərəns",
+    "zh": "会议",
+    "example": "The annual supply chain conference will be held in Singapore this October.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 469,
+    "word": "Seminar",
+    "abbr": "",
+    "phonetic": "sɛmɪnɑːr",
+    "zh": "研讨会",
+    "example": "I attended a seminar on Incoterms 2020 and found it very informative.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 470,
+    "word": "Presentation",
+    "abbr": "",
+    "phonetic": "prɛzɛnteɪʃən",
+    "zh": "演示/报告",
+    "example": "Our sales team will give a product presentation to the client tomorrow morning.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 471,
+    "word": "Negotiation",
+    "abbr": "",
+    "phonetic": "nɪɡoʊʃieɪʃən",
+    "zh": "谈判",
+    "example": "After two rounds of negotiation, we finally agreed on the price and delivery terms.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 472,
+    "word": "Partnership",
+    "abbr": "",
+    "phonetic": "pɑːrtnərʃɪp",
+    "zh": "合作关系",
+    "example": "We are looking to establish a long-term partnership with reliable logistics providers.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 473,
+    "word": "Collaboration",
+    "abbr": "",
+    "phonetic": "kəlæbəreɪʃən",
+    "zh": "合作",
+    "example": "Our collaboration with the local distributor has significantly boosted sales in the region.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 474,
+    "word": "Appointment",
+    "abbr": "Appt.",
+    "phonetic": "əpɔɪntmənt",
+    "zh": "预约/约会",
+    "example": "I have an appointment with the purchasing manager at 2 PM on Thursday.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 475,
+    "word": "Time Zone",
+    "abbr": "",
+    "phonetic": "taɪm zoʊn",
+    "zh": "时区",
+    "example": "Please be aware of the time zone difference when scheduling the video call.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 476,
+    "word": "Jet Lag",
+    "abbr": "",
+    "phonetic": "dʒɛt læɡ",
+    "zh": "时差疲劳",
+    "example": "I am still recovering from jet lag after the long-haul flight from Los Angeles.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 477,
+    "word": "Local Time",
+    "abbr": "LT",
+    "phonetic": "loʊkəl taɪm",
+    "zh": "当地时间",
+    "example": "The meeting starts at 9 AM local time in Frankfurt, which is 4 PM in Shanghai.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 478,
+    "word": "Business Etiquette",
+    "abbr": "",
+    "phonetic": "bɪznɪs ɛtɪkɛt",
+    "zh": "商务礼仪",
+    "example": "Understanding local business etiquette is crucial for building trust with overseas partners.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 479,
+    "word": "Dress Code",
+    "abbr": "",
+    "phonetic": "drɛs koʊd",
+    "zh": "着装要求",
+    "example": "The gala dinner has a formal dress code; please wear business attire.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 480,
+    "word": "Handshake",
+    "abbr": "",
+    "phonetic": "hændʃeɪk",
+    "zh": "握手",
+    "example": "A firm handshake and direct eye contact are signs of confidence in Western business culture.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 481,
+    "word": "Small Talk",
+    "abbr": "",
+    "phonetic": "smɔːl tɔːk",
+    "zh": "闲聊/寒暄",
+    "example": "Starting with small talk about local food or weather helps break the ice at meetings.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 482,
+    "word": "Agenda",
+    "abbr": "",
+    "phonetic": "ədʒɛndə",
+    "zh": "议程",
+    "example": "Please review the meeting agenda and let me know if you would like to add any items.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 483,
+    "word": "Minutes",
+    "abbr": "",
+    "phonetic": "mɪnɪts",
+    "zh": "会议记录",
+    "example": "I will circulate the meeting minutes to all participants within 24 hours.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 484,
+    "word": "Action Item",
+    "abbr": "",
+    "phonetic": "ækʃən aɪtəm",
+    "zh": "待办事项",
+    "example": "The key action item from today's meeting is to get the revised quotation by Friday.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 485,
+    "word": "Overtime",
+    "abbr": "OT",
+    "phonetic": "oʊvərtaɪm",
+    "zh": "加班",
+    "example": "The team worked overtime to finalize the proposal before the client's deadline.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 486,
+    "word": "Remote Work",
+    "abbr": "",
+    "phonetic": "rɪmoʊt wɜːrk",
+    "zh": "远程办公",
+    "example": "Our team operates on a hybrid model with remote work two days per week.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 487,
+    "word": "Video Call",
+    "abbr": "",
+    "phonetic": "vɪdioʊ kɔːl",
+    "zh": "视频通话",
+    "example": "Let's schedule a video call next Monday to discuss the logistics plan in detail.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 488,
+    "word": "Conference Call",
+    "abbr": "",
+    "phonetic": "kɒnfərəns kɔːl",
+    "zh": "电话会议",
+    "example": "The conference call will include participants from five countries across different time zones.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 489,
+    "word": "Interpreter",
+    "abbr": "",
+    "phonetic": "ɪntɜːrprɪtər",
+    "zh": "翻译/口译员",
+    "example": "We have arranged a professional interpreter for the factory tour and business meetings.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 490,
+    "word": "Translation",
+    "abbr": "",
+    "phonetic": "trænsleɪʃən",
+    "zh": "翻译",
+    "example": "The contract will require official translation into both English and Chinese.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 491,
+    "word": "Language Barrier",
+    "abbr": "",
+    "phonetic": "læŋɡwɪdʒ bæriər",
+    "zh": "语言障碍",
+    "example": "The language barrier made negotiations more challenging, so we hired an interpreter.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 492,
+    "word": "International Business",
+    "abbr": "",
+    "phonetic": "ɪntərnæʃənəl bɪznɪs",
+    "zh": "国际贸易/跨国业务",
+    "example": "Strong communication skills are essential for success in international business.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 493,
+    "word": "A la carte",
+    "abbr": "",
+    "phonetic": "ɑː lɑː kɑːrt",
+    "zh": "单点",
+    "example": "Would you prefer the set menu or would you like to order a la carte?",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 494,
+    "word": "Still Water",
+    "abbr": "",
+    "phonetic": "stɪl wɔːtər",
+    "zh": "矿泉水（无气）",
+    "example": "Could we have a bottle of still water for the table, please?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 495,
+    "word": "Sparkling Water",
+    "abbr": "",
+    "phonetic": "spɑːrklɪŋ wɔːtər",
+    "zh": "气泡水",
+    "example": "My guest prefers sparkling water; please bring a bottle when you serve the appetizers.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 496,
+    "word": "Coffee",
+    "abbr": "",
+    "phonetic": "kɒfi",
+    "zh": "咖啡",
+    "example": "Shall we continue our discussion over coffee in the hotel lounge?",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 497,
+    "word": "Tea",
+    "abbr": "",
+    "phonetic": "tiː",
+    "zh": "茶",
+    "example": "In many Asian cultures, serving tea to guests is an important business ritual.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 498,
+    "word": "Ride-sharing",
+    "abbr": "",
+    "phonetic": "raɪd ʃɛərɪŋ",
+    "zh": "共享出行",
+    "example": "Ride-sharing apps like Uber and Grab are convenient and cost-effective for business travel.",
+    "category": "travel",
+    "level": 1
+  },
+  {
+    "id": 499,
+    "word": "Expense Report",
+    "abbr": "",
+    "phonetic": "ɪkspɛns rɪpɔːrt",
+    "zh": "费用报销单",
+    "example": "Please submit your expense report within one week of returning from the business trip.",
+    "category": "travel",
+    "level": 2
+  },
+  {
+    "id": 500,
+    "word": "Per Diem",
+    "abbr": "",
+    "phonetic": "pɜːr diːɛm",
+    "zh": "日补贴",
+    "example": "The company's per diem rate for international travel is USD 80 per day for meals.",
+    "category": "travel",
+    "level": 3
+  }
+]

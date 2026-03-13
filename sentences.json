@@ -1,0 +1,36 @@
+[
+{
+"id":1,
+"sentence":"Could you send us the commercial invoice and packing list?",
+"zh":"请发送商业发票和装箱单。",
+"category":"documents"
+},
+
+{
+"id":2,
+"sentence":"What is the freight rate to Los Angeles?",
+"zh":"到洛杉矶的运费是多少？",
+"category":"quotation"
+},
+
+{
+"id":3,
+"sentence":"When is the cargo ready for pickup?",
+"zh":"货物什么时候可以提货？",
+"category":"shipment"
+},
+
+{
+"id":4,
+"sentence":"Do you offer door to door service?",
+"zh":"你们提供门到门服务吗？",
+"category":"service"
+},
+
+{
+"id":5,
+"sentence":"The cargo volume is 15 CBM.",
+"zh":"货物体积是15立方。",
+"category":"shipment"
+}
+]
