@@ -305,6 +305,14 @@ button:active { transform: scale(0.97); }
 .btn-speak:hover { background: #1d4ed8; }
 .btn-speak:active { background: #1e40af; }
 
+.btn-example {
+  flex: 1;
+  padding: 13px 8px;
+  background: #f0fdf4;
+  color: #16a34a;
+}
+.btn-example:hover { background: #dcfce7; }
+
 .btn-mark {
   flex: 1;
   padding: 13px 8px;

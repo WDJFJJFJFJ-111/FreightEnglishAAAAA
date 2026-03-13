@@ -260,9 +260,10 @@ const App = {
         <div class="meaning">${w.zh}</div>
         <div class="example">"${w.example}"</div>
         <div class="btn-row">
-          <button class="btn-speak" onclick="App.speakVocab(${w.id})">🔊 Pronounce</button>
+          <button class="btn-speak" onclick="App.speakVocab(${w.id})">🔊 发音</button>
+          <button class="btn-example" onclick="App.speakVocabExample(${w.id})">📖 例句</button>
           <button class="btn-mark ${isLearned ? 'learned' : ''}" onclick="App.toggleLearn(${w.id})">
-            ${isLearned ? '✅ Learned' : '📌 Mark Learned'}
+            ${isLearned ? '✅ Learned' : '📌 Mark'}
           </button>
         </div>
       </div>`;
@@ -284,6 +285,11 @@ const App = {
   // ─── Speech ────────────────────────────────────────────────────────────────
   speakVocab(id) {
     const w = this.vocabById[id];
+    if (w) this.speak(w.word);
+  },
+
+  speakVocabExample(id) {
+    const w = this.vocabById[id];
     if (w) this.speak(w.example);
   },
 
@@ -296,7 +302,7 @@ const App = {
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = 'en-US';
-    u.rate = 0.9;
+    u.rate = 0.85;
     const go = () => {
       this._applyEnglishVoice(u);
       speechSynthesis.speak(u);
