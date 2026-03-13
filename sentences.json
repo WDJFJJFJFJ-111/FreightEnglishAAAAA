@@ -1,27 +1,602 @@
 [
-  { "id": 1,  "sentence": "Could you send us the commercial invoice and packing list?", "zh": "请发送商业发票和装箱单。", "category": "documents" },
-  { "id": 2,  "sentence": "What is the freight rate to Los Angeles?", "zh": "到洛杉矶的运费是多少？", "category": "quotation" },
-  { "id": 3,  "sentence": "When is the cargo ready for pickup?", "zh": "货物什么时候可以提货？", "category": "shipment" },
-  { "id": 4,  "sentence": "Do you offer door to door service?", "zh": "你们提供门到门服务吗？", "category": "service" },
-  { "id": 5,  "sentence": "The cargo volume is 15 CBM.", "zh": "货物体积是15立方米。", "category": "shipment" },
-  { "id": 6,  "sentence": "Please confirm the booking number by email.", "zh": "请通过邮件确认订舱号。", "category": "booking" },
-  { "id": 7,  "sentence": "The cut-off date for this vessel is Friday at noon.", "zh": "这班船的截关日是周五中午。", "category": "shipment" },
-  { "id": 8,  "sentence": "We need the cargo insured for USD 50,000.", "zh": "我们需要货物保额为5万美元的保险。", "category": "insurance" },
-  { "id": 9,  "sentence": "Please arrange fumigation before the goods are loaded.", "zh": "请在装货前安排熏蒸处理。", "category": "customs" },
-  { "id": 10, "sentence": "The ETA at Rotterdam is April 15th.", "zh": "预计到达鹿特丹的时间是4月15日。", "category": "shipment" },
-  { "id": 11, "sentence": "Please send us the arrival notice as soon as the vessel docks.", "zh": "船靠港后请立即发送到港通知。", "category": "shipment" },
-  { "id": 12, "sentence": "We require a Certificate of Origin for customs clearance.", "zh": "清关需要原产地证书。", "category": "customs" },
-  { "id": 13, "sentence": "The goods are shipped on a CIF basis.", "zh": "货物以CIF条件出运。", "category": "trade" },
-  { "id": 14, "sentence": "Can you arrange transshipment via Singapore?", "zh": "可以安排经新加坡中转吗？", "category": "shipment" },
-  { "id": 15, "sentence": "Please issue the draft B/L for our approval before the original is released.", "zh": "请在出正本前先发提单草稿给我们确认。", "category": "documents" },
-  { "id": 16, "sentence": "The consignee details need to be amended on the Bill of Lading.", "zh": "提单上的收货人信息需要修改。", "category": "documents" },
-  { "id": 17, "sentence": "What is the volumetric weight of the shipment?", "zh": "这批货物的体积重量是多少？", "category": "quotation" },
-  { "id": 18, "sentence": "Payment terms are 30 days after the bill of lading date.", "zh": "付款条件是提单日期后30天。", "category": "payment" },
-  { "id": 19, "sentence": "The cargo is held at customs due to incomplete documentation.", "zh": "因文件不完整，货物被海关扣押。", "category": "customs" },
-  { "id": 20, "sentence": "We'd like to book a 20-foot container for next week's vessel.", "zh": "我们想订下周航班的一个20尺标准柜。", "category": "booking" },
-  { "id": 21, "sentence": "Please advise the demurrage charges if we cannot pick up the cargo in time.", "zh": "如果我们不能及时提货，请告知滞箱费。", "category": "shipment" },
-  { "id": 22, "sentence": "We need the freight prepaid and shown on the Bill of Lading.", "zh": "运费需要预付，并在提单上注明。", "category": "documents" },
-  { "id": 23, "sentence": "The goods are packed in 200 cartons on 4 pallets.", "zh": "货物装在4个托盘上共200纸箱。", "category": "shipment" },
-  { "id": 24, "sentence": "Could you provide a tracking update on shipment number SH-2024-00123?", "zh": "能提供运单号SH-2024-00123的最新状态吗？", "category": "shipment" },
-  { "id": 25, "sentence": "Please ensure the dangerous goods declaration is completed before loading.", "zh": "请确保装货前完成危险品申报。", "category": "customs" }
+  {
+    "id": 1,
+    "sentence": "Could you send us the commercial invoice and packing list?",
+    "zh": "请发送商业发票和装箱单。",
+    "category": "documents"
+  },
+  {
+    "id": 2,
+    "sentence": "What is the freight rate to Los Angeles?",
+    "zh": "到洛杉矶的运费是多少？",
+    "category": "quotation"
+  },
+  {
+    "id": 3,
+    "sentence": "When is the cargo ready for pickup?",
+    "zh": "货物什么时候可以提货？",
+    "category": "shipment"
+  },
+  {
+    "id": 4,
+    "sentence": "Do you offer door to door service?",
+    "zh": "你们提供门到门服务吗？",
+    "category": "service"
+  },
+  {
+    "id": 5,
+    "sentence": "The cargo volume is 15 CBM.",
+    "zh": "货物体积是15立方米。",
+    "category": "shipment"
+  },
+  {
+    "id": 6,
+    "sentence": "Please confirm the booking number by email.",
+    "zh": "请通过邮件确认订舱号。",
+    "category": "booking"
+  },
+  {
+    "id": 7,
+    "sentence": "The cut-off date for this vessel is Friday at noon.",
+    "zh": "这班船的截关日是周五中午。",
+    "category": "shipment"
+  },
+  {
+    "id": 8,
+    "sentence": "We need the cargo insured for USD 50,000.",
+    "zh": "我们需要货物保额为5万美元的保险。",
+    "category": "insurance"
+  },
+  {
+    "id": 9,
+    "sentence": "Please arrange fumigation before the goods are loaded.",
+    "zh": "请在装货前安排熏蒸处理。",
+    "category": "customs"
+  },
+  {
+    "id": 10,
+    "sentence": "The ETA at Rotterdam is April 15th.",
+    "zh": "预计到达鹿特丹的时间是4月15日。",
+    "category": "shipment"
+  },
+  {
+    "id": 11,
+    "sentence": "Please send us the arrival notice as soon as the vessel docks.",
+    "zh": "船靠港后请立即发送到港通知。",
+    "category": "shipment"
+  },
+  {
+    "id": 12,
+    "sentence": "We require a Certificate of Origin for customs clearance.",
+    "zh": "清关需要原产地证书。",
+    "category": "customs"
+  },
+  {
+    "id": 13,
+    "sentence": "The goods are shipped on a CIF basis.",
+    "zh": "货物以CIF条件出运。",
+    "category": "trade"
+  },
+  {
+    "id": 14,
+    "sentence": "Can you arrange transshipment via Singapore?",
+    "zh": "可以安排经新加坡中转吗？",
+    "category": "shipment"
+  },
+  {
+    "id": 15,
+    "sentence": "Please issue the draft B/L for our approval before the original is released.",
+    "zh": "请在出正本前先发提单草稿给我们确认。",
+    "category": "documents"
+  },
+  {
+    "id": 16,
+    "sentence": "The consignee details need to be amended on the Bill of Lading.",
+    "zh": "提单上的收货人信息需要修改。",
+    "category": "documents"
+  },
+  {
+    "id": 17,
+    "sentence": "What is the volumetric weight of the shipment?",
+    "zh": "这批货物的体积重量是多少？",
+    "category": "quotation"
+  },
+  {
+    "id": 18,
+    "sentence": "Payment terms are 30 days after the bill of lading date.",
+    "zh": "付款条件是提单日期后30天。",
+    "category": "payment"
+  },
+  {
+    "id": 19,
+    "sentence": "The cargo is held at customs due to incomplete documentation.",
+    "zh": "因文件不完整，货物被海关扣押。",
+    "category": "customs"
+  },
+  {
+    "id": 20,
+    "sentence": "We'd like to book a 20-foot container for next week's vessel.",
+    "zh": "我们想订下周航班的一个20尺标准柜。",
+    "category": "booking"
+  },
+  {
+    "id": 21,
+    "sentence": "Please advise the demurrage charges if we cannot pick up the cargo in time.",
+    "zh": "如果我们不能及时提货，请告知滞箱费。",
+    "category": "shipment"
+  },
+  {
+    "id": 22,
+    "sentence": "We need the freight prepaid and shown on the Bill of Lading.",
+    "zh": "运费需要预付，并在提单上注明。",
+    "category": "documents"
+  },
+  {
+    "id": 23,
+    "sentence": "The goods are packed in 200 cartons on 4 pallets.",
+    "zh": "货物装在4个托盘上共200纸箱。",
+    "category": "shipment"
+  },
+  {
+    "id": 24,
+    "sentence": "Could you provide a tracking update on shipment number SH-2024-00123?",
+    "zh": "能提供运单号SH-2024-00123的最新状态吗？",
+    "category": "shipment"
+  },
+  {
+    "id": 25,
+    "sentence": "Please ensure the dangerous goods declaration is completed before loading.",
+    "zh": "请确保装货前完成危险品申报。",
+    "category": "customs"
+  },
+  {
+    "id": 26,
+    "sentence": "Please submit the customs declaration before the cut-off time.",
+    "zh": "请在截止时间前提交报关单。",
+    "category": "customs"
+  },
+  {
+    "id": 27,
+    "sentence": "The HS code for this product is 8471.30.",
+    "zh": "该产品的海关编码是8471.30。",
+    "category": "customs"
+  },
+  {
+    "id": 28,
+    "sentence": "Customs has placed a hold on the shipment for inspection.",
+    "zh": "海关已对货物实施查验扣押。",
+    "category": "customs"
+  },
+  {
+    "id": 29,
+    "sentence": "We need an import license for this category of goods.",
+    "zh": "该类货物需要进口许可证。",
+    "category": "customs"
+  },
+  {
+    "id": 30,
+    "sentence": "Please provide the country of origin for all items.",
+    "zh": "请提供所有货物的原产地。",
+    "category": "customs"
+  },
+  {
+    "id": 31,
+    "sentence": "The customs value must reflect the actual transaction price.",
+    "zh": "完税价格须反映实际成交价格。",
+    "category": "customs"
+  },
+  {
+    "id": 32,
+    "sentence": "Duty drawback can be claimed once the goods are re-exported.",
+    "zh": "货物复出口后可申请退税。",
+    "category": "customs"
+  },
+  {
+    "id": 33,
+    "sentence": "The goods are subject to anti-dumping duties.",
+    "zh": "该货物须缴纳反倾销税。",
+    "category": "customs"
+  },
+  {
+    "id": 34,
+    "sentence": "We need to apply for a temporary import permit.",
+    "zh": "我们需要申请临时进口许可证。",
+    "category": "customs"
+  },
+  {
+    "id": 35,
+    "sentence": "Please attach Form E for ASEAN preferential tariff treatment.",
+    "zh": "请附上E表格以享受东盟优惠关税待遇。",
+    "category": "customs"
+  },
+  {
+    "id": 36,
+    "sentence": "Please send the draft B/L for approval within 24 hours.",
+    "zh": "请在24小时内发送提单草稿供审核。",
+    "category": "documents"
+  },
+  {
+    "id": 37,
+    "sentence": "The telex release has been confirmed by the shipping line.",
+    "zh": "船公司已确认电放。",
+    "category": "documents"
+  },
+  {
+    "id": 38,
+    "sentence": "We need a legalized copy of the invoice for customs purposes.",
+    "zh": "清关需要认证的发票副本。",
+    "category": "documents"
+  },
+  {
+    "id": 39,
+    "sentence": "The phytosanitary certificate must be issued by the government authority.",
+    "zh": "植物检疫证书须由政府机构签发。",
+    "category": "documents"
+  },
+  {
+    "id": 40,
+    "sentence": "Please ensure the goods description on the B/L matches the invoice.",
+    "zh": "请确保提单上的货物描述与发票一致。",
+    "category": "documents"
+  },
+  {
+    "id": 41,
+    "sentence": "Please prepare a letter of indemnity for the missing original B/L.",
+    "zh": "请为正本提单遗失出具保函。",
+    "category": "documents"
+  },
+  {
+    "id": 42,
+    "sentence": "The health certificate is required for food-grade products.",
+    "zh": "食品级产品需要卫生证书。",
+    "category": "documents"
+  },
+  {
+    "id": 43,
+    "sentence": "We require an insurance certificate showing all-risks coverage.",
+    "zh": "我们需要一份显示一切险承保范围的保险证书。",
+    "category": "documents"
+  },
+  {
+    "id": 44,
+    "sentence": "The fumigation certificate must be dated before vessel loading.",
+    "zh": "熏蒸证书的日期须早于装船日期。",
+    "category": "documents"
+  },
+  {
+    "id": 45,
+    "sentence": "The survey report confirms the cargo condition on arrival.",
+    "zh": "公估报告确认了货物到港时的状况。",
+    "category": "documents"
+  },
+  {
+    "id": 46,
+    "sentence": "The vessel is delayed due to bad weather at the loading port.",
+    "zh": "因装货港天气恶劣，船期延误。",
+    "category": "shipment"
+  },
+  {
+    "id": 47,
+    "sentence": "The container is currently at the transshipment port.",
+    "zh": "集装箱目前在中转港。",
+    "category": "shipment"
+  },
+  {
+    "id": 48,
+    "sentence": "We can offer a weekly sailing from Shenzhen to Hamburg.",
+    "zh": "我们可提供深圳至汉堡的每周班轮服务。",
+    "category": "shipment"
+  },
+  {
+    "id": 49,
+    "sentence": "The free time at destination is 7 days after vessel arrival.",
+    "zh": "目的港的免费用箱期为船到后7天。",
+    "category": "shipment"
+  },
+  {
+    "id": 50,
+    "sentence": "Please advise if there are any port surcharges for this destination.",
+    "zh": "请告知该目的港是否有港口附加费。",
+    "category": "shipment"
+  },
+  {
+    "id": 51,
+    "sentence": "The cargo has been loaded on board vessel MV Pacific Star.",
+    "zh": "货物已装上太平洋之星轮。",
+    "category": "shipment"
+  },
+  {
+    "id": 52,
+    "sentence": "A container inspection has been arranged for tomorrow morning.",
+    "zh": "集装箱查验已安排在明天上午。",
+    "category": "shipment"
+  },
+  {
+    "id": 53,
+    "sentence": "The actual departure time has been pushed back by two days.",
+    "zh": "实际开船时间推迟了两天。",
+    "category": "shipment"
+  },
+  {
+    "id": 54,
+    "sentence": "The container number is MSCU1234567 with seal number 98765.",
+    "zh": "集装箱号为MSCU1234567，铅封号98765。",
+    "category": "shipment"
+  },
+  {
+    "id": 55,
+    "sentence": "The total shipment weight is 8,500 kilograms gross.",
+    "zh": "货物总毛重为8500公斤。",
+    "category": "shipment"
+  },
+  {
+    "id": 56,
+    "sentence": "Please arrange pre-carriage from the factory to the CFS.",
+    "zh": "请安排从工厂到集装箱货运站的内陆运输。",
+    "category": "shipment"
+  },
+  {
+    "id": 57,
+    "sentence": "The transshipment at Port Klang adds four days to the transit time.",
+    "zh": "经巴生港中转将增加4天运输时间。",
+    "category": "shipment"
+  },
+  {
+    "id": 58,
+    "sentence": "We need a gate-in confirmation before we can issue the B/L.",
+    "zh": "我们需要收到进场确认后才能签发提单。",
+    "category": "shipment"
+  },
+  {
+    "id": 59,
+    "sentence": "Please confirm the empty container pick-up location and time.",
+    "zh": "请确认提空箱的地点和时间。",
+    "category": "shipment"
+  },
+  {
+    "id": 60,
+    "sentence": "The vessel has been diverted to an alternate discharge port.",
+    "zh": "船舶已改道至备选卸货港。",
+    "category": "shipment"
+  },
+  {
+    "id": 61,
+    "sentence": "The all-in rate includes origin charges but excludes destination handling.",
+    "zh": "综合运费包含起运港费用，不含目的港操作费。",
+    "category": "quotation"
+  },
+  {
+    "id": 62,
+    "sentence": "We can offer competitive rates for regular monthly shipments.",
+    "zh": "对于每月定期出货，我们可提供有竞争力的报价。",
+    "category": "quotation"
+  },
+  {
+    "id": 63,
+    "sentence": "The fuel surcharge is subject to monthly adjustment.",
+    "zh": "燃油附加费每月调整一次。",
+    "category": "quotation"
+  },
+  {
+    "id": 64,
+    "sentence": "Please quote us for both FCL and LCL options.",
+    "zh": "请分别报整柜和拼箱的价格。",
+    "category": "quotation"
+  },
+  {
+    "id": 65,
+    "sentence": "The minimum charge for LCL is one CBM.",
+    "zh": "拼箱的最低计费单位为1立方米。",
+    "category": "quotation"
+  },
+  {
+    "id": 66,
+    "sentence": "Our rate is valid for 15 days from today.",
+    "zh": "我们的报价自今日起有效期15天。",
+    "category": "quotation"
+  },
+  {
+    "id": 67,
+    "sentence": "Could you provide a full breakdown of all charges in the quotation?",
+    "zh": "能否提供报价中所有费用的明细？",
+    "category": "quotation"
+  },
+  {
+    "id": 68,
+    "sentence": "The port congestion surcharge currently applies to this trade lane.",
+    "zh": "该航线目前征收港口拥堵附加费。",
+    "category": "quotation"
+  },
+  {
+    "id": 69,
+    "sentence": "We need a door-to-door price including all import duties and taxes.",
+    "zh": "我们需要包含所有进口关税和税费的门到门报价。",
+    "category": "quotation"
+  },
+  {
+    "id": 70,
+    "sentence": "Please quote for air freight as an alternative to sea freight.",
+    "zh": "请报空运价格作为海运的备选方案。",
+    "category": "quotation"
+  },
+  {
+    "id": 71,
+    "sentence": "Please submit the shipping instructions 48 hours before cut-off.",
+    "zh": "请在截关前48小时提交装船指示。",
+    "category": "booking"
+  },
+  {
+    "id": 72,
+    "sentence": "The booking has been confirmed on vessel MSC Gulsun, voyage 123W.",
+    "zh": "订舱已在MSC鲁尔荪轮123W航次确认。",
+    "category": "booking"
+  },
+  {
+    "id": 73,
+    "sentence": "Can we add a second container to the existing booking?",
+    "zh": "能否在现有订单上加订第二个集装箱？",
+    "category": "booking"
+  },
+  {
+    "id": 74,
+    "sentence": "Please cancel the booking and rebook on the next available vessel.",
+    "zh": "请取消订舱并改订下一班可用船期。",
+    "category": "booking"
+  },
+  {
+    "id": 75,
+    "sentence": "We need a reefer container set at minus 18 degrees Celsius.",
+    "zh": "我们需要一个设定在零下18摄氏度的冷藏箱。",
+    "category": "booking"
+  },
+  {
+    "id": 76,
+    "sentence": "The booking is subject to equipment availability at the time of loading.",
+    "zh": "订舱以装货时设备可用为准。",
+    "category": "booking"
+  },
+  {
+    "id": 77,
+    "sentence": "Please arrange an open-top container for the out-of-gauge cargo.",
+    "zh": "请安排敞顶箱装运超规格货物。",
+    "category": "booking"
+  },
+  {
+    "id": 78,
+    "sentence": "The cargo description on the booking must match the actual goods exactly.",
+    "zh": "订舱的货物描述须与实际货物完全一致。",
+    "category": "booking"
+  },
+  {
+    "id": 79,
+    "sentence": "Payment should be made against the original Bill of Lading.",
+    "zh": "凭正本提单付款。",
+    "category": "payment"
+  },
+  {
+    "id": 80,
+    "sentence": "We will release the original B/L upon receipt of full payment.",
+    "zh": "收到全额货款后我们将签发正本提单。",
+    "category": "payment"
+  },
+  {
+    "id": 81,
+    "sentence": "The freight charges are prepaid by the shipper.",
+    "zh": "运费由发货人预付。",
+    "category": "payment"
+  },
+  {
+    "id": 82,
+    "sentence": "The credit terms for regular customers are net 30 days.",
+    "zh": "老客户的信用期为净30天。",
+    "category": "payment"
+  },
+  {
+    "id": 83,
+    "sentence": "Please issue a debit note for the additional handling charges.",
+    "zh": "请就额外操作费用开具借记单。",
+    "category": "payment"
+  },
+  {
+    "id": 84,
+    "sentence": "Bank charges are for the account of the remitter.",
+    "zh": "银行费用由汇款方承担。",
+    "category": "payment"
+  },
+  {
+    "id": 85,
+    "sentence": "We accept payment by TT, letter of credit, and online transfer.",
+    "zh": "我们接受电汇、信用证和网络转账付款。",
+    "category": "payment"
+  },
+  {
+    "id": 86,
+    "sentence": "The insurance covers Institute Cargo Clauses (A) all-risks.",
+    "zh": "保险承保协会货物保险条款（A）一切险。",
+    "category": "insurance"
+  },
+  {
+    "id": 87,
+    "sentence": "Please declare the correct value of goods to avoid under-insurance.",
+    "zh": "请申报正确货物价值以避免保额不足。",
+    "category": "insurance"
+  },
+  {
+    "id": 88,
+    "sentence": "The insurance premium rate is 0.3 percent of the insured value.",
+    "zh": "保险费率为保额的0.3%。",
+    "category": "insurance"
+  },
+  {
+    "id": 89,
+    "sentence": "A general average declaration has been filed for this voyage.",
+    "zh": "该航次已提交共同海损声明。",
+    "category": "insurance"
+  },
+  {
+    "id": 90,
+    "sentence": "Please file the insurance claim within the policy's time limit.",
+    "zh": "请在保单规定的期限内提出保险索赔。",
+    "category": "insurance"
+  },
+  {
+    "id": 91,
+    "sentence": "The vessel has been delayed by three days due to port congestion.",
+    "zh": "因港口拥堵，船期延误三天。",
+    "category": "delays"
+  },
+  {
+    "id": 92,
+    "sentence": "We apologize for the delay in customs clearance processing.",
+    "zh": "我们为清关处理延误表示歉意。",
+    "category": "delays"
+  },
+  {
+    "id": 93,
+    "sentence": "The delivery has been postponed due to a nationwide rail strike.",
+    "zh": "因全国性铁路罢工，送货已推迟。",
+    "category": "delays"
+  },
+  {
+    "id": 94,
+    "sentence": "The ETA has been revised to March 28th due to adverse weather.",
+    "zh": "因恶劣天气，预计到港时间已修订为3月28日。",
+    "category": "delays"
+  },
+  {
+    "id": 95,
+    "sentence": "Your cargo missed the vessel due to late gate-in at the terminal.",
+    "zh": "因进场时间过晚，您的货物未能赶上该班船。",
+    "category": "delays"
+  },
+  {
+    "id": 96,
+    "sentence": "There is a blank sailing next week; we have rebooked on the following vessel.",
+    "zh": "下周有一班停航，我们已改订下一班船。",
+    "category": "delays"
+  },
+  {
+    "id": 97,
+    "sentence": "Port congestion at the discharge port is causing delays of up to five days.",
+    "zh": "卸货港拥堵造成最长5天的延误。",
+    "category": "delays"
+  },
+  {
+    "id": 98,
+    "sentence": "The inland transport has been delayed due to severe truck shortages.",
+    "zh": "因严重缺车，内陆运输已延误。",
+    "category": "delays"
+  },
+  {
+    "id": 99,
+    "sentence": "We expect customs clearance to be completed by end of business tomorrow.",
+    "zh": "预计明天下班前完成清关。",
+    "category": "delays"
+  },
+  {
+    "id": 100,
+    "sentence": "The shipment has been held pending additional documentary verification.",
+    "zh": "货物因需补充文件核查而被暂扣。",
+    "category": "delays"
+  }
 ]
