@@ -1,36 +1,27 @@
 [
-{
-"id":1,
-"sentence":"Could you send us the commercial invoice and packing list?",
-"zh":"请发送商业发票和装箱单。",
-"category":"documents"
-},
-
-{
-"id":2,
-"sentence":"What is the freight rate to Los Angeles?",
-"zh":"到洛杉矶的运费是多少？",
-"category":"quotation"
-},
-
-{
-"id":3,
-"sentence":"When is the cargo ready for pickup?",
-"zh":"货物什么时候可以提货？",
-"category":"shipment"
-},
-
-{
-"id":4,
-"sentence":"Do you offer door to door service?",
-"zh":"你们提供门到门服务吗？",
-"category":"service"
-},
-
-{
-"id":5,
-"sentence":"The cargo volume is 15 CBM.",
-"zh":"货物体积是15立方。",
-"category":"shipment"
-}
+  { "id": 1,  "sentence": "Could you send us the commercial invoice and packing list?", "zh": "请发送商业发票和装箱单。", "category": "documents" },
+  { "id": 2,  "sentence": "What is the freight rate to Los Angeles?", "zh": "到洛杉矶的运费是多少？", "category": "quotation" },
+  { "id": 3,  "sentence": "When is the cargo ready for pickup?", "zh": "货物什么时候可以提货？", "category": "shipment" },
+  { "id": 4,  "sentence": "Do you offer door to door service?", "zh": "你们提供门到门服务吗？", "category": "service" },
+  { "id": 5,  "sentence": "The cargo volume is 15 CBM.", "zh": "货物体积是15立方米。", "category": "shipment" },
+  { "id": 6,  "sentence": "Please confirm the booking number by email.", "zh": "请通过邮件确认订舱号。", "category": "booking" },
+  { "id": 7,  "sentence": "The cut-off date for this vessel is Friday at noon.", "zh": "这班船的截关日是周五中午。", "category": "shipment" },
+  { "id": 8,  "sentence": "We need the cargo insured for USD 50,000.", "zh": "我们需要货物保额为5万美元的保险。", "category": "insurance" },
+  { "id": 9,  "sentence": "Please arrange fumigation before the goods are loaded.", "zh": "请在装货前安排熏蒸处理。", "category": "customs" },
+  { "id": 10, "sentence": "The ETA at Rotterdam is April 15th.", "zh": "预计到达鹿特丹的时间是4月15日。", "category": "shipment" },
+  { "id": 11, "sentence": "Please send us the arrival notice as soon as the vessel docks.", "zh": "船靠港后请立即发送到港通知。", "category": "shipment" },
+  { "id": 12, "sentence": "We require a Certificate of Origin for customs clearance.", "zh": "清关需要原产地证书。", "category": "customs" },
+  { "id": 13, "sentence": "The goods are shipped on a CIF basis.", "zh": "货物以CIF条件出运。", "category": "trade" },
+  { "id": 14, "sentence": "Can you arrange transshipment via Singapore?", "zh": "可以安排经新加坡中转吗？", "category": "shipment" },
+  { "id": 15, "sentence": "Please issue the draft B/L for our approval before the original is released.", "zh": "请在出正本前先发提单草稿给我们确认。", "category": "documents" },
+  { "id": 16, "sentence": "The consignee details need to be amended on the Bill of Lading.", "zh": "提单上的收货人信息需要修改。", "category": "documents" },
+  { "id": 17, "sentence": "What is the volumetric weight of the shipment?", "zh": "这批货物的体积重量是多少？", "category": "quotation" },
+  { "id": 18, "sentence": "Payment terms are 30 days after the bill of lading date.", "zh": "付款条件是提单日期后30天。", "category": "payment" },
+  { "id": 19, "sentence": "The cargo is held at customs due to incomplete documentation.", "zh": "因文件不完整，货物被海关扣押。", "category": "customs" },
+  { "id": 20, "sentence": "We'd like to book a 20-foot container for next week's vessel.", "zh": "我们想订下周航班的一个20尺标准柜。", "category": "booking" },
+  { "id": 21, "sentence": "Please advise the demurrage charges if we cannot pick up the cargo in time.", "zh": "如果我们不能及时提货，请告知滞箱费。", "category": "shipment" },
+  { "id": 22, "sentence": "We need the freight prepaid and shown on the Bill of Lading.", "zh": "运费需要预付，并在提单上注明。", "category": "documents" },
+  { "id": 23, "sentence": "The goods are packed in 200 cartons on 4 pallets.", "zh": "货物装在4个托盘上共200纸箱。", "category": "shipment" },
+  { "id": 24, "sentence": "Could you provide a tracking update on shipment number SH-2024-00123?", "zh": "能提供运单号SH-2024-00123的最新状态吗？", "category": "shipment" },
+  { "id": 25, "sentence": "Please ensure the dangerous goods declaration is completed before loading.", "zh": "请确保装货前完成危险品申报。", "category": "customs" }
 ]

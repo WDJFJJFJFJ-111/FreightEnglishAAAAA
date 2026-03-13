@@ -1,14 +1,12 @@
 // ─── App State ────────────────────────────────────────────────────────────────
 const App = {
-  vocab: [],       // from vocabulary.json
-  sentences: [],   // from sentences.json
-  dialogues: [],   // from dialogues.json
-  // vocab lookup by id for O(1) access
+  vocab: [],
+  sentences: [],
+  dialogues: [],
   vocabById: {},
 
-  wordIdx: 0,
-  sentIdx: 0,
   dlgIdx: 0,
+  vocabFilter: '',
 
   learned: new Set(),
   streak: 0,
@@ -32,7 +30,7 @@ const App = {
     } catch (e) {
       console.error('Data load error:', e);
       document.getElementById('main').innerHTML =
-        '<div class="card" style="color:#c00">数据加载失败，请通过 HTTP 服务器访问（npx serve .）</div>';
+        '<div class="card" style="color:#991b1b">Failed to load data. Please serve via HTTP (npx serve .)</div>';
       return;
     }
     document.getElementById('streak-num').textContent = this.streak;
@@ -60,46 +58,95 @@ const App = {
     const dayNum = Math.floor(Date.now() / 86400000);
     const word = this.vocab[dayNum % this.vocab.length];
     const sent = this.sentences[dayNum % this.sentences.length];
+    const learnedCount = this.learned.size;
+    const total = this.vocab.length;
+
     document.getElementById('main').innerHTML = `
-      <div class="section-title">📖 今日单词</div>
+      <div class="stats-strip">
+        <div class="stat-box">
+          <div class="stat-num">${this.streak}</div>
+          <div class="stat-label">Day Streak 🔥</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">${learnedCount}</div>
+          <div class="stat-label">Words Learned</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">${total - learnedCount}</div>
+          <div class="stat-label">Remaining</div>
+        </div>
+      </div>
+      <div class="section-title">📖 Word of the Day</div>
       ${this.buildWordCard(word)}
-      <div class="section-title" style="margin-top:20px">💬 今日句子</div>
+      <div class="section-title" style="margin-top:20px">💬 Sentence of the Day</div>
       ${this.buildSentCard(sent)}
     `;
   },
 
-  // ─── Words Tab ─────────────────────────────────────────────────────────────
+  // ─── Vocabulary Tab (searchable list) ──────────────────────────────────────
   renderWords() {
-    if (!this.vocab.length) return;
-    const w = this.vocab[this.wordIdx];
-    document.getElementById('main').innerHTML = `
-      <div class="pager">
-        <button class="btn-nav" onclick="App.prevWord()">◀</button>
-        <span class="pager-num">${this.wordIdx + 1} / ${this.vocab.length}</span>
-        <button class="btn-nav" onclick="App.nextWord()">▶</button>
-      </div>
-      <div class="cat-badge cat-${w.category}">${w.category}</div>
-      ${this.buildWordCard(w)}
-    `;
+    // Only build the shell once; let _renderWordList fill the list
+    if (!document.getElementById('vocab-list')) {
+      document.getElementById('main').innerHTML = `
+        <input
+          type="search"
+          id="vocab-search"
+          class="search-bar"
+          placeholder="🔍  Search vocabulary..."
+          oninput="App.filterWords(this.value)"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        >
+        <div id="vocab-result-count" class="result-count"></div>
+        <div id="vocab-list"></div>
+      `;
+    }
+    this._renderWordList();
   },
-  prevWord() { this.wordIdx = (this.wordIdx - 1 + this.vocab.length) % this.vocab.length; this.renderWords(); },
-  nextWord() { this.wordIdx = (this.wordIdx + 1) % this.vocab.length; this.renderWords(); },
 
-  // ─── Sentences Tab ─────────────────────────────────────────────────────────
+  _renderWordList() {
+    const q = this.vocabFilter.toLowerCase().trim();
+    const filtered = q
+      ? this.vocab.filter(w =>
+          w.word.toLowerCase().includes(q) ||
+          w.zh.includes(q) ||
+          (w.abbr && w.abbr.toLowerCase().includes(q)) ||
+          w.example.toLowerCase().includes(q))
+      : this.vocab;
+
+    const countEl = document.getElementById('vocab-result-count');
+    if (countEl) {
+      countEl.textContent = q
+        ? `${filtered.length} result${filtered.length !== 1 ? 's' : ''} for "${this.vocabFilter}"`
+        : `${filtered.length} words total`;
+    }
+
+    const listEl = document.getElementById('vocab-list');
+    if (listEl) {
+      listEl.innerHTML = filtered.length
+        ? filtered.map(w => this.buildWordCard(w)).join('')
+        : '<div class="card" style="text-align:center;color:#94a3b8;padding:30px">No results found</div>';
+    }
+  },
+
+  filterWords(query) {
+    this.vocabFilter = query;
+    this._renderWordList();
+    // Restore cursor position in search input
+    const input = document.getElementById('vocab-search');
+    if (input && document.activeElement !== input) input.focus();
+  },
+
+  // ─── Sentences Tab (full list) ─────────────────────────────────────────────
   renderSentences() {
-    if (!this.sentences.length) return;
-    const s = this.sentences[this.sentIdx];
+    const cards = this.sentences.map(s => this.buildSentCard(s)).join('');
     document.getElementById('main').innerHTML = `
-      <div class="pager">
-        <button class="btn-nav" onclick="App.prevSent()">◀</button>
-        <span class="pager-num">${this.sentIdx + 1} / ${this.sentences.length}</span>
-        <button class="btn-nav" onclick="App.nextSent()">▶</button>
-      </div>
-      ${this.buildSentCard(s)}
+      <div class="section-title">${this.sentences.length} Logistics Sentences</div>
+      ${cards}
     `;
   },
-  prevSent() { this.sentIdx = (this.sentIdx - 1 + this.sentences.length) % this.sentences.length; this.renderSentences(); },
-  nextSent() { this.sentIdx = (this.sentIdx + 1) % this.sentences.length; this.renderSentences(); },
 
   // ─── Dialogue Tab ──────────────────────────────────────────────────────────
   renderDialogue() {
@@ -110,12 +157,13 @@ const App = {
       <div class="dialogue-line ${line.role === 'A' ? 'role-a' : 'role-b'}">
         <div class="line-header">
           <span class="role-label">${line.label}</span>
-          <button class="btn-speak-sm" onclick="App.speakLine(${di}, ${li})">🔊</button>
+          <button class="btn-speak-sm" onclick="App.speakLine(${di},${li})">🔊</button>
         </div>
         <div class="line-en">${line.en}</div>
         <div class="line-zh">${line.zh}</div>
       </div>
     `).join('');
+
     document.getElementById('main').innerHTML = `
       <div class="pager">
         <button class="btn-nav" onclick="App.prevDlg()">◀</button>
@@ -128,9 +176,10 @@ const App = {
         <div class="phonetic" style="margin-top:6px">${d.scene_zh}</div>
       </div>
       <div class="dialogue-box">${linesHtml}</div>
-      <button class="btn-speak-all" onclick="App.speakAll(${di})">🔊 连续朗读全部</button>
+      <button class="btn-speak-all" onclick="App.speakAll(${di})">🔊 Read All Lines</button>
     `;
   },
+
   prevDlg() { this.dlgIdx = (this.dlgIdx - 1 + this.dialogues.length) % this.dialogues.length; this.renderDialogue(); },
   nextDlg() { this.dlgIdx = (this.dlgIdx + 1) % this.dialogues.length; this.renderDialogue(); },
 
@@ -166,6 +215,7 @@ const App = {
       catTotal[w.category] = (catTotal[w.category] || 0) + 1;
       if (this.learned.has(w.id)) catLearned[w.category] = (catLearned[w.category] || 0) + 1;
     });
+
     const catRows = Object.keys(catTotal).map(c => {
       const done = catLearned[c] || 0;
       const tot = catTotal[c];
@@ -180,24 +230,24 @@ const App = {
 
     document.getElementById('main').innerHTML = `
       <div class="card">
-        <div class="word" style="text-align:center">学习进度</div>
+        <div class="word" style="text-align:center">Learning Progress</div>
         <div class="big-progress-wrap">
           <div class="big-progress-bar" style="width:${pct}%"></div>
         </div>
-        <div class="meaning" style="text-align:center;margin-top:8px">${learnedCount} / ${total} 词已掌握 (${pct}%)</div>
-        <div class="meaning" style="text-align:center">🔥 连续学习 ${this.streak} 天</div>
+        <div class="meaning" style="text-align:center;margin-top:8px">${learnedCount} / ${total} words mastered (${pct}%)</div>
+        <div class="meaning" style="text-align:center;margin-top:4px">🔥 ${this.streak}-day streak</div>
       </div>
       <div class="card">
-        <div class="meaning" style="font-weight:bold;margin-bottom:12px">分类进度</div>
+        <div class="meaning" style="font-weight:700;margin-bottom:14px">Progress by Category</div>
         ${catRows}
       </div>
-      <button class="btn-reset" onclick="App.resetProgress()">🗑 重置进度</button>
+      <button class="btn-reset" onclick="App.resetProgress()">🗑  Reset Progress</button>
     `;
   },
 
   // ─── Card Builders ─────────────────────────────────────────────────────────
   buildWordCard(w) {
-    if (!w) return '<div class="card">暂无数据</div>';
+    if (!w) return '<div class="card">No data</div>';
     const isLearned = this.learned.has(w.id);
     return `
       <div class="card">
@@ -210,26 +260,28 @@ const App = {
         <div class="meaning">${w.zh}</div>
         <div class="example">"${w.example}"</div>
         <div class="btn-row">
-          <button class="btn-speak" onclick="App.speakVocab(${w.id})">🔊 朗读例句</button>
+          <button class="btn-speak" onclick="App.speakVocab(${w.id})">🔊 Pronounce</button>
           <button class="btn-mark ${isLearned ? 'learned' : ''}" onclick="App.toggleLearn(${w.id})">
-            ${isLearned ? '✅ 已掌握' : '📌 标记掌握'}
+            ${isLearned ? '✅ Learned' : '📌 Mark Learned'}
           </button>
         </div>
       </div>`;
   },
 
   buildSentCard(s) {
-    if (!s) return '<div class="card">暂无数据</div>';
+    if (!s) return '<div class="card">No data</div>';
     return `
       <div class="card">
-        <div class="cat-badge cat-${s.category}">${s.category}</div>
-        <div class="line-en" style="font-size:17px;margin:10px 0">${s.sentence}</div>
-        <div class="meaning">${s.zh}</div>
-        <button class="btn-speak" onclick="App.speakSent(${s.id})">🔊 朗读句子</button>
+        <span class="cat-badge cat-${s.category}">${s.category}</span>
+        <div class="sent-en">${s.sentence}</div>
+        <div class="sent-zh">${s.zh}</div>
+        <div class="btn-row" style="margin-top:12px">
+          <button class="btn-speak" onclick="App.speakSent(${s.id})">🔊 Listen</button>
+        </div>
       </div>`;
   },
 
-  // ─── Speak Helpers (use IDs to avoid inline string escaping) ──────────────
+  // ─── Speech ────────────────────────────────────────────────────────────────
   speakVocab(id) {
     const w = this.vocabById[id];
     if (w) this.speak(w.example);
@@ -249,7 +301,6 @@ const App = {
       this._applyEnglishVoice(u);
       speechSynthesis.speak(u);
     };
-    // Voices may not be loaded yet on first call
     if (speechSynthesis.getVoices().length > 0) {
       go();
     } else {
@@ -259,7 +310,6 @@ const App = {
 
   _applyEnglishVoice(utterance) {
     const voices = speechSynthesis.getVoices();
-    // Prefer local en-US, then any en-*, then nothing (browser default)
     const voice = voices.find(v => v.lang === 'en-US' && v.localService)
                || voices.find(v => v.lang.startsWith('en') && v.localService)
                || voices.find(v => v.lang === 'en-US')
@@ -304,13 +354,21 @@ const App = {
   },
 
   resetProgress() {
-    if (!confirm('确认重置所有学习进度？此操作不可撤销。')) return;
+    if (!confirm('Reset all learning progress? This cannot be undone.')) return;
     this.learned = new Set();
     this.streak = 0;
     this.lastDate = new Date().toDateString();
     this.saveProgress();
     document.getElementById('streak-num').textContent = 0;
     this.renderProgress();
+  },
+
+  toast(msg) {
+    const el = document.createElement('div');
+    el.className = 'toast';
+    el.textContent = msg;
+    document.getElementById('toasts').appendChild(el);
+    setTimeout(() => el.remove(), 2600);
   },
 };
 

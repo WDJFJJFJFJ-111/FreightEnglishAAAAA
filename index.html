@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="货代英语">
-  <title>Freight English Trainer</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="FreightEnglish">
+  <title>FreightEnglish Trainer</title>
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icons/icon-192.svg">
@@ -15,14 +15,17 @@
 <body>
 <div id="app">
   <header>
-    <div class="header-title">
-      <span>🚢</span>
-      <span id="header-title">货代英语</span>
-    </div>
-    <div class="header-right">
+    <div class="header-content">
+      <div class="header-title">
+        <span class="header-icon">🚢</span>
+        <div>
+          <div class="header-name">FreightEnglish</div>
+          <div class="header-sub">Learn logistics English fast</div>
+        </div>
+      </div>
       <div class="streak-badge">
         <span>🔥</span>
-        <span id="streak-num">0</span>天
+        <span id="streak-num">0</span>d
       </div>
     </div>
   </header>
@@ -32,23 +35,23 @@
   <nav>
     <div class="nav-item active" data-tab="home" onclick="App.switchTab('home')">
       <span class="nav-icon">🏠</span>
-      <span class="nav-label">今日</span>
+      <span class="nav-label">Home</span>
     </div>
     <div class="nav-item" data-tab="words" onclick="App.switchTab('words')">
       <span class="nav-icon">📚</span>
-      <span class="nav-label">单词</span>
+      <span class="nav-label">Vocabulary</span>
     </div>
     <div class="nav-item" data-tab="sentences" onclick="App.switchTab('sentences')">
       <span class="nav-icon">💬</span>
-      <span class="nav-label">句子</span>
+      <span class="nav-label">Sentences</span>
     </div>
     <div class="nav-item" data-tab="dialogue" onclick="App.switchTab('dialogue')">
       <span class="nav-icon">🎤</span>
-      <span class="nav-label">跟读</span>
+      <span class="nav-label">Dialogues</span>
     </div>
     <div class="nav-item" data-tab="progress" onclick="App.switchTab('progress')">
       <span class="nav-icon">📊</span>
-      <span class="nav-label">进度</span>
+      <span class="nav-label">Progress</span>
     </div>
   </nav>
 </div>
